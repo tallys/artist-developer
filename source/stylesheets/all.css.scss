@@ -8,11 +8,14 @@
 @import "portrait";
 
 body {
-	@include outer-container;
 	background-color: $dark-neutral;
 	position: relative;
 	animation: moving-shadow (random(5) *3s) linear infinite;
 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+main {
+	@include outer-container;
 }
 
 h2 {
