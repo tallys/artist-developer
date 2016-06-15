@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Always force latest IE rendering engine or request Chrome Frame -->
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Use title if it's in the page YAML frontmatter -->
+	<title><%= current_page.data.title || "The Middleman" %></title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<%= stylesheet_link_tag "all" %>
+	<%= javascript_include_tag  "all" %>
+</head>
+<header>
+
+</header>
+<body class="<%= page_classes %>">
+
+	<main>
+		<%= yield %>
+
+		<div class="description">
+			<h2 class="🌺">Color Theory</h2>
+			<ul class="🌷">
+				<li>
+					<a href="http://tallys.github.io/color-theory">Practical Color Theory for People Who Code</a>
+				</li>
+				<li><a href="https://docs.google.com/presentation/d/1ytSMRNpNrD9CWms351X4xelQuJT24tIqKnIzSbe2OQ0/edit?usp=sharing">Color Theory Slides</a></li>
+			</ul>
+
+			<h2 class="🌺">Making</h2>
+			<ul class="🌷">
+				<li><a href="https://dribbble.com/tallys">Dribbble</a></li>
+				<li><a href="codepen.io/tallys/">Codepen</a></li>
+				<li><a href="https://github.com/tallys">Github</a></li>
+
+			</ul>
+
+			<h2 class="🌺">Writing</h2>
+			<ul class="🌷">
+				<li><a href="https://medium.com/@tallys">Medium</a></li>
+				<li><a href="https://twitter.com/natalyathree">Twitter</a></li>
+			</ul>
+
+
+			<h2 class="🌺">Speaking</h2>
+			<ul class="🌷">
+				<li><a href="http://sassconf.com/">SassConf 2015 - Austin, TX</a></li>
+				<li><a href="http://roosterteeth.com/">RTX Tech Panel 2015 - Austin, TX</a></li>
+				<li><a href="http://minnewebcon.org/">MinneWebCon 2016 - Minneapolis, MN</a></li>
+				<li><a href="https://wwconnect2016.squarespace.com/"></a>Women Who Code Connect 2016 - Seattle, WA</li></li>
+				<li><a href="http://frontendunited.org/">Frontend United 2016 - Ghent, Belgium</a></li>
+				<li><a href="http://scotlandcss.com/">ScotlandCSS 2016 - Edinbugh, Scotland</a></li>
+				<li><a href="http://2016.cascadiafest.org/">Cascadia CSS 2016 - Semiahmoo, WA</a></li>
+			</ul>
+		</div>
+	</main>
+	<footer>
+		<%= partial "layouts/gem.svg.erb" %>
+		</footer>
+	</footer>
+	<section class="shards">
+		<%= partial "layouts/nat-gem.svg.erb" %>
+	</section>
+</body>
+</html>
