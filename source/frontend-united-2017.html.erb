@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Always force latest IE rendering engine or request Chrome Frame -->
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Use title if it's in the page YAML frontmatter -->
+	<title>Frontend United 2017</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<%= stylesheet_link_tag "frontend-united-2017" %>
+</head>
+
+<body>
+	<main>
+
+		<article class="active demo-item js--clock">
+			<div class="clock">
+				<div class="clock-face">
+					<div class="hand js--hour-hand"></div>
+					<div class="hand js--min-hand"></div>
+					<div class="hand js--second-hand"></div>
+				</div>
+			</div>
+		</article>
+
+		<article class="demo-item js--gem">
+			<%= partial "images/gem.svg.erb" %>
+		</article>
+
+		<article class="demo-item js--">
+			<%= partial "images/complementary-colour-map.svg.erb" %>
+		</article>
+
+		<article class="demo-item js--">
+			<%= partial "images/scalable-van-gogh.svg.erb" %>
+		</article>
+
+	</main>
+	<%= javascript_include_tag "frontend-united-2017" %>
+</body>
+</html>
