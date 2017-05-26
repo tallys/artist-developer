@@ -14,7 +14,7 @@
 # Per-page layout changes:
 #
 # With no layout
-page "/frontend-united-2017.html", layout: false
+page "/demos.html", layout: false
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout

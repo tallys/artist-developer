@@ -18,6 +18,12 @@ main {
 	@include outer-container;
 }
 
+
+footer {
+	border-top: 1px solid $complementary-neutral-dark;
+	text-align: center;
+}
+
 h2 {
 	color: $complementary-neutral-light;
 }
@@ -33,34 +39,6 @@ h2 {
 	li {
 		margin-bottom: .5em;
 	}
-}
-
-
-@for $i from 0 through 6 {
-	@keyframes gem#{$i} {
-		0% {fill: hsl(random(10), random(33 * 3), random(33 * 3));}
-		20% {fill: hsl(random(20), random(70 * 1.7), random(33 * 3));}
-		50% {fill: hsl(random(30), random(100), random(50 * 2));}
-		80% {fill: hsl(random(160), random(50 * 1.7), random(50 * 2));}
- 		100% {fill: hsl(random(360), random(33 * 3), random(33 * 3));}
- 	}
- 		
- 		.gem#{$i} {
- 			fill: #860519;
-			animation: gem#{$i} (random(3) *2s) (random(3) * 1s) ease infinite alternate;
-			&:hover {
-				animation: none;
-			}
- 		}
-}
-
-.💎 {
-	display: block;
-	margin: auto;
-	width: 110px;
-	padding: 0 30px;
-	fill: $complementary-neutral-light;
-	stroke: none;
 }
 
 p {
