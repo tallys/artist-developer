@@ -1,0 +1,215 @@
+@import "variables";
+
+:root {
+	--black: black;
+	--white: white;
+}
+
+html {
+	background: #222;
+	background-size: cover;
+	font-family: 'helvetica neue';
+	text-align: center;
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+	font-size: 2rem;
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	align-items: center;
+}
+
+// navigation
+
+.demo-item {
+	width: 100vw;
+	height: 100vh;
+}
+
+// clock
+
+.clock {
+	--second-degrees: 0;
+	width: 30rem;
+	height: 30rem;
+	// we must use a string literal because sass + custom props is anger
+	border: 20px solid #{"hsla(var(--second-degrees), 90%, 45%, 1)"};
+	border-radius: 50%;
+	margin: 50px auto;
+	position: relative;
+	padding: 2rem;
+	box-shadow:
+	0 0 0 4px rgba(0,0,0,0.1),
+	inset 0 0 0 3px #EFEFEF,
+	inset 0 0 10px var(--black),
+	0 0 10px rgba(0,0,0,0.2);
+}
+
+.clock-face {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform: translateY(-3px); /* account for the height of the clock hands */
+}
+
+.hand {
+	width: 50%;
+	height: 6px;
+	background: var(--white);
+	position: absolute;
+	top: 50%;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	transition: all 0.05s;
+	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+// gem
+
+@for $i from 0 through 6 {
+	@keyframes gem#{$i} {
+		0% {fill: hsl(random(10), random(33 * 3), random(33 * 3));}
+		20% {fill: hsl(random(20), random(70 * 1.7), random(33 * 3));}
+		50% {fill: hsl(random(30), random(100), random(50 * 2));}
+		80% {fill: hsl(random(160), random(50 * 1.7), random(50 * 2));}
+ 		100% {fill: hsl(random(360), random(33 * 3), random(33 * 3));}
+ 	}
+
+ 		.gem#{$i} {
+ 			fill: #860519;
+			animation: gem#{$i} (random(3) *2s) (random(3) * 1s) ease infinite alternate;
+			&:hover {
+				animation: none;
+			}
+ 		}
+}
+
+.💎 {
+	display: block;
+	margin: auto;
+	width: 110px;
+	padding: 0 30px;
+	fill: $complementary-neutral-light;
+	stroke: none;
+}
+
+// colour map
+
+// YOU ON YOUR OWN
+
+// van goff
+
+.vg-section {
+    margin-bottom: 0;
+}
+
+.vg-background {
+    fill: hsl(179, 21%, 54%);
+    fill: darken($complementary-gray, 5);
+}
+
+#vg-leaves {
+    .leaf{
+        fill: desaturate(darken($analogous-color, 20) , 31);
+        stroke: desaturate(darken($analogous-color, 30) , 31);
+    }
+}
+
+#vg-backbranches {
+    .vg-backbranch {
+        fill:#AFAD90;
+        stroke:#293F1E;
+        fill: lighten(desaturate(adjust-hue($complementary-neutral, -50), 20), 17);
+
+        stroke: lighten(desaturate(adjust-hue($complementary-neutral-dark, 10), 20), 25);
+    }
+}
+
+#vg-backbranch {
+    .vg-backbranch {
+        // fill:#99AA9B;
+        fill: lighten(desaturate(adjust-hue($primary-neutral, 50), 20), 27);
+        // stroke:#1C3A32;
+        stroke: lighten(desaturate(adjust-hue($complementary-neutral-dark, 30), 20), 25);
+    }
+}
+
+#vg-shadowblossoms {
+    .vg-shadowblossom {
+        // fill:#C6B7A5;
+        fill: lighten(desaturate(adjust-hue($primary-neutral, 30), 20), 27);
+        // stroke:#9B9A89;
+        stroke: lighten(desaturate(adjust-hue($primary-neutral, -10), 30), 3);
+    }
+    .vg-shadowblossom:nth-of-type(3n) {
+        fill: lighten(desaturate(adjust-hue($primary-neutral, 5), 15), 27);
+        stroke: lighten(desaturate(adjust-hue($primary-neutral, 10), 20), 3);
+    }
+}
+
+#vg-buds {
+    .vg-buds {
+        fill: darken(mix-neutral($primary-light), 11);
+        fill: mix-neutral($primary-light);
+        // stroke:#9E806C;
+        stroke: lighten(desaturate(adjust-hue($primary-neutral, -10), 30), 3);
+    }
+}
+
+#vg-highlightblossoms {
+    .vg-highlightblossom {
+        fill: lighten($primary-neutral-light, 9);
+        stroke: $primary-neutral-light;
+    }
+
+    .vg-highlightblossom:nth-of-type(2n) {
+        fill: $white;
+        stroke: $primary-neutral-light;
+    }
+
+    .vg-highlightblossom:nth-of-type(6n) {
+        fill: adjust-hue($primary-neutral-light, 30);
+        stroke: darken(adjust-hue($primary-neutral-light, 40), 11);
+    }
+}
+
+#vg-middlebranch {
+    .vg-middlebranch {
+        fill: #8C9984;
+        fill: lighten(desaturate(adjust-hue($complementary-neutral, -50), 20), 24);
+        // fill: red;
+        stroke:#434C3F;
+
+        stroke: lighten(desaturate(adjust-hue($complementary-neutral-dark, -90), 20), 13);
+    }
+}
+
+#vg-forebranch {
+    .vg-forebranch {
+        // fill:#9DAE8A;
+        fill: lighten(desaturate(adjust-hue($complementary-neutral, -33), 20), 27);
+        // stroke:#333333;
+        stroke: $complementary-neutral-dark;
+    }
+}
+
+#vg-topbranch {
+    .vg-topbranch {
+        // fill:#8E9B87;
+        fill: lighten(desaturate(adjust-hue($complementary-neutral, -20), 20), 27);
+        stroke:#1C3A32;
+        stroke: lighten($complementary-neutral-dark, 3);
+    }
+}
+
+#vg-topleftbranch {
+    .vg-topleftbranch {
+        fill:#ABBCA4;
+        fill: adjust-hue($primary-neutral-light, 30);
+        // stroke:#1C3A32;
+        stroke: $complementary-neutral-dark;
+    }
+}
