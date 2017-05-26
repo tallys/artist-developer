@@ -68,8 +68,8 @@ p {
 }
 
 a {
-		text-decoration: none;
-		color: $complementary-neutral-light;
+	text-decoration: none;
+	color: $complementary-neutral-light;
 	&:active, &:focus, &:hover {
 		color: white;
 		text-decoration: underline;
