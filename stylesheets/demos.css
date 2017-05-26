@@ -1,0 +1,419 @@
+@charset "UTF-8";
+/* line 3, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+:root {
+  --black: black;
+  --white: white; }
+
+/* line 8, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+html {
+  background: #222;
+  background-size: cover;
+  font-family: 'helvetica neue';
+  text-align: center;
+  font-size: 10px; }
+
+/* line 16, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+body {
+  max-width: 1000px;
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center; }
+
+/* line 26, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💥 {
+  color: white; }
+
+/* line 32, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.demo-item {
+  width: 100vw;
+  min-height: 100vh;
+  margin-bottom: 15vh; }
+
+/* line 40, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.clock {
+  --second-degrees: 0;
+  width: 25rem;
+  height: 25rem;
+  border: 20px solid hsla(var(--second-degrees), 90%, 45%, 1);
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #EFEFEF, inset 0 0 10px var(--black), 0 0 10px rgba(0, 0, 0, 0.2); }
+
+/* line 57, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+  /* account for the height of the clock hands */ }
+
+/* line 64, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.hand {
+  width: 50%;
+  height: 6px;
+  background: var(--white);
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); }
+
+@keyframes adjust0 {
+  0% {
+    fill: #d4cfbf; }
+  10% {
+    fill: #ccd4bf; }
+  10% {
+    fill: #bfd4bf; }
+  30% {
+    fill: #bfd4cb; }
+  40% {
+    fill: #bfd0d4; }
+  50% {
+    fill: #bfc4d4; }
+  60% {
+    fill: #c7bfd4; }
+  70% {
+    fill: #d3bfd4; }
+  80% {
+    fill: #d4bfc8; }
+  90% {
+    fill: #d4c3bf; }
+  100% {
+    fill: #c9c9c9; } }
+@keyframes adjust1 {
+  0% {
+    fill: #bfb9a1; }
+  10% {
+    fill: #b3bfa1; }
+  10% {
+    fill: #a1bfa1; }
+  30% {
+    fill: #a1bfb2; }
+  40% {
+    fill: #a1babf; }
+  50% {
+    fill: #a1a7bf; }
+  60% {
+    fill: #aca1bf; }
+  70% {
+    fill: #bfa1bf; }
+  80% {
+    fill: #bfa1ad; }
+  90% {
+    fill: #bfa6a1; }
+  100% {
+    fill: #b0b0b0; } }
+@keyframes adjust2 {
+  0% {
+    fill: #756633; }
+  10% {
+    fill: #5d7533; }
+  10% {
+    fill: #357533; }
+  30% {
+    fill: #337559; }
+  40% {
+    fill: #336a75; }
+  50% {
+    fill: #334275; }
+  60% {
+    fill: #4b3375; }
+  70% {
+    fill: #733375; }
+  80% {
+    fill: #753350; }
+  90% {
+    fill: #753e33; }
+  100% {
+    fill: #545454; } }
+@keyframes adjust3 {
+  0% {
+    fill: #bdb18a; }
+  10% {
+    fill: #aabd8a; }
+  10% {
+    fill: #8bbd8a; }
+  30% {
+    fill: #8abda7; }
+  40% {
+    fill: #8ab4bd; }
+  50% {
+    fill: #8a95bd; }
+  60% {
+    fill: #9d8abd; }
+  70% {
+    fill: #bb8abd; }
+  80% {
+    fill: #bd8aa0; }
+  90% {
+    fill: #bd928a; }
+  100% {
+    fill: #a3a3a3; } }
+@keyframes adjust4 {
+  0% {
+    fill: #4e4529; }
+  10% {
+    fill: #404e29; }
+  10% {
+    fill: #2a4e29; }
+  30% {
+    fill: #294e3d; }
+  40% {
+    fill: #29484e; }
+  50% {
+    fill: #29314e; }
+  60% {
+    fill: #36294e; }
+  70% {
+    fill: #4c294e; }
+  80% {
+    fill: #4e2939; }
+  90% {
+    fill: #4e2f29; }
+  100% {
+    fill: #3b3b3b; } }
+@keyframes adjust5 {
+  0% {
+    fill: #c3b483; }
+  10% {
+    fill: #acc383; }
+  10% {
+    fill: #85c383; }
+  30% {
+    fill: #83c3a8; }
+  40% {
+    fill: #83b8c3; }
+  50% {
+    fill: #8392c3; }
+  60% {
+    fill: #9b83c3; }
+  70% {
+    fill: #c183c3; }
+  80% {
+    fill: #c3839f; }
+  90% {
+    fill: #c38e83; }
+  100% {
+    fill: #a3a3a3; } }
+@keyframes adjust6 {
+  0% {
+    fill: #978445; }
+  10% {
+    fill: #789745; }
+  10% {
+    fill: #479745; }
+  30% {
+    fill: #459773; }
+  40% {
+    fill: #458997; }
+  50% {
+    fill: #455897; }
+  60% {
+    fill: #634597; }
+  70% {
+    fill: #944597; }
+  80% {
+    fill: #974568; }
+  90% {
+    fill: #975345; }
+  100% {
+    fill: #6e6e6e; } }
+/* line 343, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💎 .gem0 {
+  fill: #d4c3bf;
+  animation: adjust0 5s linear infinite alternate; }
+/* line 347, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💎 .gem1 {
+  fill: #bfa6a1;
+  animation: adjust1 5s linear infinite alternate; }
+/* line 351, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💎 .gem2 {
+  fill: #995142;
+  animation: adjust2 5s linear infinite alternate; }
+/* line 355, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💎 .gem3 {
+  fill: #b78980;
+  animation: adjust3 5s linear infinite alternate; }
+/* line 359, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💎 .gem4 {
+  fill: black;
+  animation: adjust4 5s linear infinite alternate; }
+/* line 363, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💎 .gem5 {
+  fill: #be8579;
+  animation: adjust5 5s linear infinite alternate; }
+/* line 367, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💎 .gem6 {
+  fill: #975345;
+  animation: adjust6 5s linear infinite alternate; }
+
+/* line 374, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.💎 {
+  display: block;
+  margin: auto;
+  width: 410px;
+  padding: 0 30px;
+  fill: #c7dce0;
+  stroke: none; }
+
+/* line 388, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale div, .color-value-scale div, .saturation-value-scale div {
+  height: 77px;
+  width: calc(8vw - 11px);
+  margin-right: 5px;
+  display: inline-block;
+  border: 1px solid #efefef; }
+
+/* line 396, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value1 {
+  background-color: black; }
+
+/* line 399, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value2 {
+  background-color: #1a1a1a; }
+
+/* line 402, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value3 {
+  background-color: #333333; }
+
+/* line 405, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value4 {
+  background-color: #4d4d4d; }
+
+/* line 408, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value5 {
+  background-color: #666666; }
+
+/* line 411, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value6 {
+  background-color: gray; }
+
+/* line 414, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value7 {
+  background-color: #999999; }
+
+/* line 417, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value8 {
+  background-color: #b3b3b3; }
+
+/* line 420, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value9 {
+  background-color: #cccccc; }
+
+/* line 423, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value10 {
+  background-color: #e6e6e6; }
+
+/* line 426, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.value-scale .value11 {
+  background-color: white; }
+
+/* line 431, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value1 {
+  background-color: black; }
+
+/* line 434, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value2 {
+  background-color: #330000; }
+
+/* line 437, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value3 {
+  background-color: #660000; }
+
+/* line 440, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value4 {
+  background-color: #990000; }
+
+/* line 443, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value5 {
+  background-color: #cc0000; }
+
+/* line 446, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value6 {
+  background-color: red; }
+
+/* line 449, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value7 {
+  background-color: #ff3333; }
+
+/* line 452, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value8 {
+  background-color: #ff6666; }
+
+/* line 455, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value9 {
+  background-color: #ff9999; }
+
+/* line 458, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value10 {
+  background-color: #ffcccc; }
+
+/* line 461, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.saturation-value-scale .value11 {
+  background-color: white; }
+
+/* line 466, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value1 {
+  background-color: black; }
+
+/* line 469, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value2 {
+  background-color: #331a00; }
+
+/* line 472, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value3 {
+  background-color: #666600; }
+
+/* line 475, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value4 {
+  background-color: #4d9900; }
+
+/* line 478, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value5 {
+  background-color: #00cc00; }
+
+/* line 481, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value6 {
+  background-color: #00ffaa; }
+
+/* line 484, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value7 {
+  background-color: #33ddff; }
+
+/* line 487, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value8 {
+  background-color: #6699ff; }
+
+/* line 490, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value9 {
+  background-color: #bb99ff; }
+
+/* line 493, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value10 {
+  background-color: #f7ccff; }
+
+/* line 496, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.color-value-scale .value11 {
+  background-color: white; }
+
+/* line 500, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.🍰 {
+  font-size: 16px;
+  color: #efefef; }
+
+/* line 505, /Users/tallys/Projects/artist-developer/source/stylesheets/demos.css.scss */
+.demo-text-block {
+  text-align: left;
+  margin: 10px auto 45px auto;
+  padding: 30px;
+  background-color: rgba(219, 194, 189, 0.2);
+  max-width: 800px;
+  font-size: 15px;
+  color: #efefef; }

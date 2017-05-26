@@ -348,11 +348,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 4, /Users/tallys/Projects/artist-developer/vendor/ruby/2.0.0/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
+/* line 4, /Library/Ruby/Gems/2.0.0/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
 html {
   box-sizing: border-box; }
 
-/* line 9, /Users/tallys/Projects/artist-developer/vendor/ruby/2.0.0/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
+/* line 9, /Library/Ruby/Gems/2.0.0/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
 *, *::after, *::before {
   box-sizing: inherit; }
 
@@ -418,7 +418,7 @@ html {
 
 @keyframes moving-shadow {
   50% {
-    background-color: #1b171c; } }
+    background-color: #1c171b; } }
 @keyframes dark-glow {
   0% {
     fill: #1f3038; }
@@ -428,10 +428,10 @@ html {
     fill: #212b2d; } }
 @keyframes colorize-0 {
   50% {
-    fill: #e4220c; } }
+    fill: white; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st0 {
-  animation: colorize-0 21s linear 16s infinite alternate; }
+  animation: colorize-0 36s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st0:hover {
     animation: none;
@@ -439,10 +439,10 @@ html {
 
 @keyframes colorize-1 {
   50% {
-    fill: #31261b; } }
+    fill: #834d49; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st1 {
-  animation: colorize-1 48s linear 1s infinite alternate; }
+  animation: colorize-1 24s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st1:hover {
     animation: none;
@@ -450,10 +450,10 @@ html {
 
 @keyframes colorize-2 {
   50% {
-    fill: #f9e3e1; } }
+    fill: #c4966e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st2 {
-  animation: colorize-2 57s linear 2s infinite alternate; }
+  animation: colorize-2 76s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st2:hover {
     animation: none;
@@ -461,10 +461,10 @@ html {
 
 @keyframes colorize-3 {
   50% {
-    fill: #e5492a; } }
+    fill: #7b6c65; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st3 {
-  animation: colorize-3 9s linear 9s infinite alternate; }
+  animation: colorize-3 28s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st3:hover {
     animation: none;
@@ -472,10 +472,10 @@ html {
 
 @keyframes colorize-4 {
   50% {
-    fill: #eeb7a0; } }
+    fill: #d1855c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st4 {
-  animation: colorize-4 30s linear 4s infinite alternate; }
+  animation: colorize-4 68s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st4:hover {
     animation: none;
@@ -483,10 +483,10 @@ html {
 
 @keyframes colorize-5 {
   50% {
-    fill: #f3f2f1; } }
+    fill: #f63f31; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st5 {
-  animation: colorize-5 21s linear 6s infinite alternate; }
+  animation: colorize-5 20s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st5:hover {
     animation: none;
@@ -494,10 +494,10 @@ html {
 
 @keyframes colorize-6 {
   50% {
-    fill: #b14d2f; } }
+    fill: #e1ab94; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st6 {
-  animation: colorize-6 24s linear 6s infinite alternate; }
+  animation: colorize-6 56s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st6:hover {
     animation: none;
@@ -505,10 +505,10 @@ html {
 
 @keyframes colorize-7 {
   50% {
-    fill: #e3dbd9; } }
+    fill: #c99992; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st7 {
-  animation: colorize-7 51s linear 12s infinite alternate; }
+  animation: colorize-7 52s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st7:hover {
     animation: none;
@@ -516,10 +516,10 @@ html {
 
 @keyframes colorize-8 {
   50% {
-    fill: #f4c4a4; } }
+    fill: #646362; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st8 {
-  animation: colorize-8 27s linear 17s infinite alternate; }
+  animation: colorize-8 56s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st8:hover {
     animation: none;
@@ -527,10 +527,10 @@ html {
 
 @keyframes colorize-9 {
   50% {
-    fill: #2c1202; } }
+    fill: #362826; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st9 {
-  animation: colorize-9 42s linear 13s infinite alternate; }
+  animation: colorize-9 8s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st9:hover {
     animation: none;
@@ -538,10 +538,10 @@ html {
 
 @keyframes colorize-10 {
   50% {
-    fill: #ee8b77; } }
+    fill: #e9dacd; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st10 {
-  animation: colorize-10 6s linear 4s infinite alternate; }
+  animation: colorize-10 52s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st10:hover {
     animation: none;
@@ -549,10 +549,10 @@ html {
 
 @keyframes colorize-11 {
   50% {
-    fill: #c1a195; } }
+    fill: #b46113; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st11 {
-  animation: colorize-11 45s linear 14s infinite alternate; }
+  animation: colorize-11 60s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st11:hover {
     animation: none;
@@ -560,10 +560,10 @@ html {
 
 @keyframes colorize-12 {
   50% {
-    fill: #6e6463; } }
+    fill: #a85238; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st12 {
-  animation: colorize-12 15s linear 10s infinite alternate; }
+  animation: colorize-12 28s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st12:hover {
     animation: none;
@@ -571,10 +571,10 @@ html {
 
 @keyframes colorize-13 {
   50% {
-    fill: #d9c2bf; } }
+    fill: #5c270a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st13 {
-  animation: colorize-13 3s linear 14s infinite alternate; }
+  animation: colorize-13 44s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st13:hover {
     animation: none;
@@ -582,10 +582,10 @@ html {
 
 @keyframes colorize-14 {
   50% {
-    fill: #1c0903; } }
+    fill: #ceb092; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st14 {
-  animation: colorize-14 39s linear 13s infinite alternate; }
+  animation: colorize-14 32s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st14:hover {
     animation: none;
@@ -593,10 +593,10 @@ html {
 
 @keyframes colorize-15 {
   50% {
-    fill: #0e0801; } }
+    fill: #362f2b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st15 {
-  animation: colorize-15 9s linear 1s infinite alternate; }
+  animation: colorize-15 52s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st15:hover {
     animation: none;
@@ -604,10 +604,10 @@ html {
 
 @keyframes colorize-16 {
   50% {
-    fill: #c9756e; } }
+    fill: #c11701; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st16 {
-  animation: colorize-16 39s linear 8s infinite alternate; }
+  animation: colorize-16 32s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st16:hover {
     animation: none;
@@ -615,10 +615,10 @@ html {
 
 @keyframes colorize-17 {
   50% {
-    fill: #feebd7; } }
+    fill: #a62e0c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st17 {
-  animation: colorize-17 30s linear 13s infinite alternate; }
+  animation: colorize-17 16s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st17:hover {
     animation: none;
@@ -626,10 +626,10 @@ html {
 
 @keyframes colorize-18 {
   50% {
-    fill: #e6dbd0; } }
+    fill: #a6a2a0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st18 {
-  animation: colorize-18 3s linear 2s infinite alternate; }
+  animation: colorize-18 64s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st18:hover {
     animation: none;
@@ -637,10 +637,10 @@ html {
 
 @keyframes colorize-19 {
   50% {
-    fill: #a23a1a; } }
+    fill: #56422e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st19 {
-  animation: colorize-19 48s linear 10s infinite alternate; }
+  animation: colorize-19 52s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st19:hover {
     animation: none;
@@ -648,10 +648,10 @@ html {
 
 @keyframes colorize-20 {
   50% {
-    fill: #520b0a; } }
+    fill: #ed2e0c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st20 {
-  animation: colorize-20 18s linear 14s infinite alternate; }
+  animation: colorize-20 28s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st20:hover {
     animation: none;
@@ -659,10 +659,10 @@ html {
 
 @keyframes colorize-21 {
   50% {
-    fill: #b9997e; } }
+    fill: #0b0705; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st21 {
-  animation: colorize-21 39s linear 10s infinite alternate; }
+  animation: colorize-21 32s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st21:hover {
     animation: none;
@@ -670,10 +670,10 @@ html {
 
 @keyframes colorize-22 {
   50% {
-    fill: #b38e7a; } }
+    fill: #956c56; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st22 {
-  animation: colorize-22 33s linear 9s infinite alternate; }
+  animation: colorize-22 52s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st22:hover {
     animation: none;
@@ -681,10 +681,10 @@ html {
 
 @keyframes colorize-23 {
   50% {
-    fill: #e9837c; } }
+    fill: #912a18; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st23 {
-  animation: colorize-23 33s linear 16s infinite alternate; }
+  animation: colorize-23 72s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st23:hover {
     animation: none;
@@ -692,10 +692,10 @@ html {
 
 @keyframes colorize-24 {
   50% {
-    fill: #9c7163; } }
+    fill: #912b22; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st24 {
-  animation: colorize-24 51s linear 4s infinite alternate; }
+  animation: colorize-24 32s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st24:hover {
     animation: none;
@@ -703,10 +703,10 @@ html {
 
 @keyframes colorize-25 {
   50% {
-    fill: #dccac1; } }
+    fill: #6c2c04; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st25 {
-  animation: colorize-25 30s linear 9s infinite alternate; }
+  animation: colorize-25 24s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st25:hover {
     animation: none;
@@ -714,10 +714,10 @@ html {
 
 @keyframes colorize-26 {
   50% {
-    fill: #601f06; } }
+    fill: #3f2103; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st26 {
-  animation: colorize-26 9s linear 5s infinite alternate; }
+  animation: colorize-26 16s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st26:hover {
     animation: none;
@@ -725,10 +725,10 @@ html {
 
 @keyframes colorize-27 {
   50% {
-    fill: #241f1e; } }
+    fill: #feb6a5; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st27 {
-  animation: colorize-27 57s linear 1s infinite alternate; }
+  animation: colorize-27 16s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st27:hover {
     animation: none;
@@ -736,10 +736,10 @@ html {
 
 @keyframes colorize-28 {
   50% {
-    fill: #84331f; } }
+    fill: #5d1304; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st28 {
-  animation: colorize-28 57s linear 8s infinite alternate; }
+  animation: colorize-28 4s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st28:hover {
     animation: none;
@@ -747,10 +747,10 @@ html {
 
 @keyframes colorize-29 {
   50% {
-    fill: #936e48; } }
+    fill: #400d07; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st29 {
-  animation: colorize-29 54s linear 1s infinite alternate; }
+  animation: colorize-29 4s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st29:hover {
     animation: none;
@@ -758,10 +758,10 @@ html {
 
 @keyframes colorize-30 {
   50% {
-    fill: #fde6d3; } }
+    fill: #c1bdb8; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st30 {
-  animation: colorize-30 36s linear 11s infinite alternate; }
+  animation: colorize-30 8s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st30:hover {
     animation: none;
@@ -769,10 +769,10 @@ html {
 
 @keyframes colorize-31 {
   50% {
-    fill: #9c785e; } }
+    fill: #f7f0ee; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st31 {
-  animation: colorize-31 9s linear 13s infinite alternate; }
+  animation: colorize-31 24s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st31:hover {
     animation: none;
@@ -780,10 +780,10 @@ html {
 
 @keyframes colorize-32 {
   50% {
-    fill: #602a06; } }
+    fill: #81726a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st32 {
-  animation: colorize-32 24s linear 13s infinite alternate; }
+  animation: colorize-32 28s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st32:hover {
     animation: none;
@@ -791,10 +791,10 @@ html {
 
 @keyframes colorize-33 {
   50% {
-    fill: #511610; } }
+    fill: #ada9a9; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st33 {
-  animation: colorize-33 51s linear 7s infinite alternate; }
+  animation: colorize-33 8s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st33:hover {
     animation: none;
@@ -802,10 +802,10 @@ html {
 
 @keyframes colorize-34 {
   50% {
-    fill: #e6491a; } }
+    fill: #250504; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st34 {
-  animation: colorize-34 42s linear 16s infinite alternate; }
+  animation: colorize-34 44s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st34:hover {
     animation: none;
@@ -813,10 +813,10 @@ html {
 
 @keyframes colorize-35 {
   50% {
-    fill: #dbb499; } }
+    fill: #573f32; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st35 {
-  animation: colorize-35 57s linear 11s infinite alternate; }
+  animation: colorize-35 36s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st35:hover {
     animation: none;
@@ -824,10 +824,10 @@ html {
 
 @keyframes colorize-36 {
   50% {
-    fill: #866456; } }
+    fill: #db6451; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st36 {
-  animation: colorize-36 30s linear 2s infinite alternate; }
+  animation: colorize-36 8s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st36:hover {
     animation: none;
@@ -835,10 +835,10 @@ html {
 
 @keyframes colorize-37 {
   50% {
-    fill: #b14806; } }
+    fill: #933b0b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st37 {
-  animation: colorize-37 51s linear 3s infinite alternate; }
+  animation: colorize-37 36s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st37:hover {
     animation: none;
@@ -846,10 +846,10 @@ html {
 
 @keyframes colorize-38 {
   50% {
-    fill: #2f2114; } }
+    fill: #3e3737; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st38 {
-  animation: colorize-38 30s linear 16s infinite alternate; }
+  animation: colorize-38 64s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st38:hover {
     animation: none;
@@ -857,10 +857,10 @@ html {
 
 @keyframes colorize-39 {
   50% {
-    fill: #151414; } }
+    fill: #c36865; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st39 {
-  animation: colorize-39 45s linear 8s infinite alternate; }
+  animation: colorize-39 12s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st39:hover {
     animation: none;
@@ -868,10 +868,10 @@ html {
 
 @keyframes colorize-40 {
   50% {
-    fill: #fb8c84; } }
+    fill: #2a160e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st40 {
-  animation: colorize-40 48s linear 11s infinite alternate; }
+  animation: colorize-40 76s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st40:hover {
     animation: none;
@@ -879,10 +879,10 @@ html {
 
 @keyframes colorize-41 {
   50% {
-    fill: #d14c3d; } }
+    fill: #d7d5d5; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st41 {
-  animation: colorize-41 18s linear 3s infinite alternate; }
+  animation: colorize-41 20s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st41:hover {
     animation: none;
@@ -890,10 +890,10 @@ html {
 
 @keyframes colorize-42 {
   50% {
-    fill: #070403; } }
+    fill: #947161; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st42 {
-  animation: colorize-42 51s linear 2s infinite alternate; }
+  animation: colorize-42 60s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st42:hover {
     animation: none;
@@ -901,10 +901,10 @@ html {
 
 @keyframes colorize-43 {
   50% {
-    fill: #ad867f; } }
+    fill: #e4b096; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st43 {
-  animation: colorize-43 33s linear 9s infinite alternate; }
+  animation: colorize-43 68s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st43:hover {
     animation: none;
@@ -912,10 +912,10 @@ html {
 
 @keyframes colorize-44 {
   50% {
-    fill: #fef6f1; } }
+    fill: #3c271a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st44 {
-  animation: colorize-44 21s linear 10s infinite alternate; }
+  animation: colorize-44 60s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st44:hover {
     animation: none;
@@ -923,10 +923,10 @@ html {
 
 @keyframes colorize-45 {
   50% {
-    fill: #fae9e5; } }
+    fill: #a8a4a4; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st45 {
-  animation: colorize-45 21s linear 12s infinite alternate; }
+  animation: colorize-45 52s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st45:hover {
     animation: none;
@@ -934,10 +934,10 @@ html {
 
 @keyframes colorize-46 {
   50% {
-    fill: #f5c6c2; } }
+    fill: #e2bc9c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st46 {
-  animation: colorize-46 39s linear 17s infinite alternate; }
+  animation: colorize-46 60s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st46:hover {
     animation: none;
@@ -945,10 +945,10 @@ html {
 
 @keyframes colorize-47 {
   50% {
-    fill: #fefcfb; } }
+    fill: #caa296; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st47 {
-  animation: colorize-47 21s linear 2s infinite alternate; }
+  animation: colorize-47 48s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st47:hover {
     animation: none;
@@ -956,10 +956,10 @@ html {
 
 @keyframes colorize-48 {
   50% {
-    fill: #5e351c; } }
+    fill: #7a1106; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st48 {
-  animation: colorize-48 39s linear 1s infinite alternate; }
+  animation: colorize-48 36s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st48:hover {
     animation: none;
@@ -967,10 +967,10 @@ html {
 
 @keyframes colorize-49 {
   50% {
-    fill: #ebd9d1; } }
+    fill: #ffdfdc; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st49 {
-  animation: colorize-49 24s linear 13s infinite alternate; }
+  animation: colorize-49 40s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st49:hover {
     animation: none;
@@ -978,10 +978,10 @@ html {
 
 @keyframes colorize-50 {
   50% {
-    fill: #49210d; } }
+    fill: #fae1d1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st50 {
-  animation: colorize-50 27s linear 17s infinite alternate; }
+  animation: colorize-50 12s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st50:hover {
     animation: none;
@@ -989,10 +989,10 @@ html {
 
 @keyframes colorize-51 {
   50% {
-    fill: #9d9b9b; } }
+    fill: #d5975d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st51 {
-  animation: colorize-51 18s linear 4s infinite alternate; }
+  animation: colorize-51 44s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st51:hover {
     animation: none;
@@ -1000,10 +1000,10 @@ html {
 
 @keyframes colorize-52 {
   50% {
-    fill: #f9f2f1; } }
+    fill: #dfbb9f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st52 {
-  animation: colorize-52 6s linear 14s infinite alternate; }
+  animation: colorize-52 48s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st52:hover {
     animation: none;
@@ -1011,10 +1011,10 @@ html {
 
 @keyframes colorize-53 {
   50% {
-    fill: #f4bd9f; } }
+    fill: #eec3a5; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st53 {
-  animation: colorize-53 15s linear 9s infinite alternate; }
+  animation: colorize-53 12s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st53:hover {
     animation: none;
@@ -1022,10 +1022,10 @@ html {
 
 @keyframes colorize-54 {
   50% {
-    fill: #fb9a50; } }
+    fill: #f1e4df; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st54 {
-  animation: colorize-54 27s linear 6s infinite alternate; }
+  animation: colorize-54 48s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st54:hover {
     animation: none;
@@ -1033,10 +1033,10 @@ html {
 
 @keyframes colorize-55 {
   50% {
-    fill: #d2b398; } }
+    fill: #a98279; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st55 {
-  animation: colorize-55 27s linear 13s infinite alternate; }
+  animation: colorize-55 72s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st55:hover {
     animation: none;
@@ -1044,10 +1044,10 @@ html {
 
 @keyframes colorize-56 {
   50% {
-    fill: #0b0604; } }
+    fill: #8a3a0f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st56 {
-  animation: colorize-56 54s linear 4s infinite alternate; }
+  animation: colorize-56 16s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st56:hover {
     animation: none;
@@ -1055,10 +1055,10 @@ html {
 
 @keyframes colorize-57 {
   50% {
-    fill: #f7f4f2; } }
+    fill: #734a30; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st57 {
-  animation: colorize-57 36s linear 6s infinite alternate; }
+  animation: colorize-57 16s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st57:hover {
     animation: none;
@@ -1066,10 +1066,10 @@ html {
 
 @keyframes colorize-58 {
   50% {
-    fill: #210b02; } }
+    fill: white; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st58 {
-  animation: colorize-58 24s linear 3s infinite alternate; }
+  animation: colorize-58 4s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st58:hover {
     animation: none;
@@ -1077,10 +1077,10 @@ html {
 
 @keyframes colorize-59 {
   50% {
-    fill: #8e6d5d; } }
+    fill: #ada199; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st59 {
-  animation: colorize-59 36s linear 13s infinite alternate; }
+  animation: colorize-59 76s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st59:hover {
     animation: none;
@@ -1088,10 +1088,10 @@ html {
 
 @keyframes colorize-60 {
   50% {
-    fill: #f7582b; } }
+    fill: #1d1c1b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st60 {
-  animation: colorize-60 30s linear 16s infinite alternate; }
+  animation: colorize-60 52s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st60:hover {
     animation: none;
@@ -1099,10 +1099,10 @@ html {
 
 @keyframes colorize-61 {
   50% {
-    fill: #e58471; } }
+    fill: #080707; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st61 {
-  animation: colorize-61 54s linear 2s infinite alternate; }
+  animation: colorize-61 36s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st61:hover {
     animation: none;
@@ -1110,10 +1110,10 @@ html {
 
 @keyframes colorize-62 {
   50% {
-    fill: #4f3721; } }
+    fill: #ebebea; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st62 {
-  animation: colorize-62 24s linear 8s infinite alternate; }
+  animation: colorize-62 12s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st62:hover {
     animation: none;
@@ -1121,10 +1121,10 @@ html {
 
 @keyframes colorize-63 {
   50% {
-    fill: #c4b4b1; } }
+    fill: #f4cca9; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st63 {
-  animation: colorize-63 54s linear 15s infinite alternate; }
+  animation: colorize-63 32s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st63:hover {
     animation: none;
@@ -1132,10 +1132,10 @@ html {
 
 @keyframes colorize-64 {
   50% {
-    fill: #e7e0df; } }
+    fill: #fffbfa; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st64 {
-  animation: colorize-64 51s linear 6s infinite alternate; }
+  animation: colorize-64 40s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st64:hover {
     animation: none;
@@ -1143,10 +1143,10 @@ html {
 
 @keyframes colorize-65 {
   50% {
-    fill: #a23f11; } }
+    fill: #b67472; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st65 {
-  animation: colorize-65 36s linear 8s infinite alternate; }
+  animation: colorize-65 28s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st65:hover {
     animation: none;
@@ -1154,10 +1154,10 @@ html {
 
 @keyframes colorize-66 {
   50% {
-    fill: #d86522; } }
+    fill: #7d5336; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st66 {
-  animation: colorize-66 9s linear 1s infinite alternate; }
+  animation: colorize-66 16s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st66:hover {
     animation: none;
@@ -1165,10 +1165,10 @@ html {
 
 @keyframes colorize-67 {
   50% {
-    fill: #803f1e; } }
+    fill: #352827; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st67 {
-  animation: colorize-67 42s linear 14s infinite alternate; }
+  animation: colorize-67 44s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st67:hover {
     animation: none;
@@ -1176,10 +1176,10 @@ html {
 
 @keyframes colorize-68 {
   50% {
-    fill: #ce572c; } }
+    fill: #e3a1a0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st68 {
-  animation: colorize-68 18s linear 9s infinite alternate; }
+  animation: colorize-68 72s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st68:hover {
     animation: none;
@@ -1187,10 +1187,10 @@ html {
 
 @keyframes colorize-69 {
   50% {
-    fill: #ebe5e0; } }
+    fill: #fefbfa; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st69 {
-  animation: colorize-69 6s linear 16s infinite alternate; }
+  animation: colorize-69 12s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st69:hover {
     animation: none;
@@ -1198,10 +1198,10 @@ html {
 
 @keyframes colorize-70 {
   50% {
-    fill: #ca1e1c; } }
+    fill: #f9f2eb; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st70 {
-  animation: colorize-70 27s linear 1s infinite alternate; }
+  animation: colorize-70 8s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st70:hover {
     animation: none;
@@ -1209,10 +1209,10 @@ html {
 
 @keyframes colorize-71 {
   50% {
-    fill: #dcb28f; } }
+    fill: #8e5833; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st71 {
-  animation: colorize-71 9s linear 12s infinite alternate; }
+  animation: colorize-71 28s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st71:hover {
     animation: none;
@@ -1220,10 +1220,10 @@ html {
 
 @keyframes colorize-72 {
   50% {
-    fill: #ed7112; } }
+    fill: #f27263; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st72 {
-  animation: colorize-72 33s linear 3s infinite alternate; }
+  animation: colorize-72 40s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st72:hover {
     animation: none;
@@ -1231,10 +1231,10 @@ html {
 
 @keyframes colorize-73 {
   50% {
-    fill: #4b3c34; } }
+    fill: #482f1e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st73 {
-  animation: colorize-73 12s linear 11s infinite alternate; }
+  animation: colorize-73 8s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st73:hover {
     animation: none;
@@ -1242,10 +1242,10 @@ html {
 
 @keyframes colorize-74 {
   50% {
-    fill: #570a05; } }
+    fill: #fdfcfc; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st74 {
-  animation: colorize-74 21s linear 7s infinite alternate; }
+  animation: colorize-74 60s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st74:hover {
     animation: none;
@@ -1253,10 +1253,10 @@ html {
 
 @keyframes colorize-75 {
   50% {
-    fill: #f2c6a6; } }
+    fill: #edd4cf; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st75 {
-  animation: colorize-75 51s linear 10s infinite alternate; }
+  animation: colorize-75 44s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st75:hover {
     animation: none;
@@ -1264,10 +1264,10 @@ html {
 
 @keyframes colorize-76 {
   50% {
-    fill: #8c501d; } }
+    fill: #9a2a04; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st76 {
-  animation: colorize-76 3s linear 1s infinite alternate; }
+  animation: colorize-76 40s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st76:hover {
     animation: none;
@@ -1275,10 +1275,10 @@ html {
 
 @keyframes colorize-77 {
   50% {
-    fill: #6a5b4e; } }
+    fill: #3d1206; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st77 {
-  animation: colorize-77 27s linear 2s infinite alternate; }
+  animation: colorize-77 72s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st77:hover {
     animation: none;
@@ -1286,10 +1286,10 @@ html {
 
 @keyframes colorize-78 {
   50% {
-    fill: #e0c2be; } }
+    fill: #f2eae9; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st78 {
-  animation: colorize-78 9s linear 17s infinite alternate; }
+  animation: colorize-78 36s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st78:hover {
     animation: none;
@@ -1297,10 +1297,10 @@ html {
 
 @keyframes colorize-79 {
   50% {
-    fill: #76736f; } }
+    fill: #504c49; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st79 {
-  animation: colorize-79 6s linear 7s infinite alternate; }
+  animation: colorize-79 44s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st79:hover {
     animation: none;
@@ -1308,10 +1308,10 @@ html {
 
 @keyframes colorize-80 {
   50% {
-    fill: #d1332e; } }
+    fill: #533736; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st80 {
-  animation: colorize-80 18s linear 1s infinite alternate; }
+  animation: colorize-80 16s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st80:hover {
     animation: none;
@@ -1319,10 +1319,10 @@ html {
 
 @keyframes colorize-81 {
   50% {
-    fill: #f18e88; } }
+    fill: #e68551; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st81 {
-  animation: colorize-81 12s linear 6s infinite alternate; }
+  animation: colorize-81 52s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st81:hover {
     animation: none;
@@ -1330,10 +1330,10 @@ html {
 
 @keyframes colorize-82 {
   50% {
-    fill: #230a01; } }
+    fill: #060504; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st82 {
-  animation: colorize-82 36s linear 11s infinite alternate; }
+  animation: colorize-82 64s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st82:hover {
     animation: none;
@@ -1341,10 +1341,10 @@ html {
 
 @keyframes colorize-83 {
   50% {
-    fill: #2c0d02; } }
+    fill: #ac8280; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st83 {
-  animation: colorize-83 9s linear 17s infinite alternate; }
+  animation: colorize-83 64s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st83:hover {
     animation: none;
@@ -1352,10 +1352,10 @@ html {
 
 @keyframes colorize-84 {
   50% {
-    fill: #835834; } }
+    fill: #3a3331; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st84 {
-  animation: colorize-84 54s linear 3s infinite alternate; }
+  animation: colorize-84 24s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st84:hover {
     animation: none;
@@ -1363,10 +1363,10 @@ html {
 
 @keyframes colorize-85 {
   50% {
-    fill: #772608; } }
+    fill: #eab3ae; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st85 {
-  animation: colorize-85 30s linear 4s infinite alternate; }
+  animation: colorize-85 52s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st85:hover {
     animation: none;
@@ -1374,10 +1374,10 @@ html {
 
 @keyframes colorize-86 {
   50% {
-    fill: #f2984a; } }
+    fill: #eceae9; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st86 {
-  animation: colorize-86 48s linear 4s infinite alternate; }
+  animation: colorize-86 60s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st86:hover {
     animation: none;
@@ -1385,10 +1385,10 @@ html {
 
 @keyframes colorize-87 {
   50% {
-    fill: #87786e; } }
+    fill: #24201e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st87 {
-  animation: colorize-87 24s linear 16s infinite alternate; }
+  animation: colorize-87 68s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st87:hover {
     animation: none;
@@ -1396,10 +1396,10 @@ html {
 
 @keyframes colorize-88 {
   50% {
-    fill: #e6955b; } }
+    fill: #a3a09e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st88 {
-  animation: colorize-88 33s linear 2s infinite alternate; }
+  animation: colorize-88 40s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st88:hover {
     animation: none;
@@ -1407,10 +1407,10 @@ html {
 
 @keyframes colorize-89 {
   50% {
-    fill: #fdf7f7; } }
+    fill: #f99d95; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st89 {
-  animation: colorize-89 33s linear 14s infinite alternate; }
+  animation: colorize-89 56s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st89:hover {
     animation: none;
@@ -1418,10 +1418,10 @@ html {
 
 @keyframes colorize-90 {
   50% {
-    fill: #f2c9c4; } }
+    fill: #bba8a0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st90 {
-  animation: colorize-90 12s linear 9s infinite alternate; }
+  animation: colorize-90 48s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st90:hover {
     animation: none;
@@ -1429,10 +1429,10 @@ html {
 
 @keyframes colorize-91 {
   50% {
-    fill: #d89c8d; } }
+    fill: #5b211f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st91 {
-  animation: colorize-91 45s linear 2s infinite alternate; }
+  animation: colorize-91 44s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st91:hover {
     animation: none;
@@ -1440,10 +1440,10 @@ html {
 
 @keyframes colorize-92 {
   50% {
-    fill: #75170a; } }
+    fill: #d06b06; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st92 {
-  animation: colorize-92 21s linear 17s infinite alternate; }
+  animation: colorize-92 68s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st92:hover {
     animation: none;
@@ -1451,10 +1451,10 @@ html {
 
 @keyframes colorize-93 {
   50% {
-    fill: white; } }
+    fill: #eae4e1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st93 {
-  animation: colorize-93 54s linear 8s infinite alternate; }
+  animation: colorize-93 4s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st93:hover {
     animation: none;
@@ -1462,10 +1462,10 @@ html {
 
 @keyframes colorize-94 {
   50% {
-    fill: #f9c7c2; } }
+    fill: #b59f92; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st94 {
-  animation: colorize-94 42s linear 7s infinite alternate; }
+  animation: colorize-94 16s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st94:hover {
     animation: none;
@@ -1473,10 +1473,10 @@ html {
 
 @keyframes colorize-95 {
   50% {
-    fill: #eceae9; } }
+    fill: #3d1a01; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st95 {
-  animation: colorize-95 36s linear 17s infinite alternate; }
+  animation: colorize-95 12s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st95:hover {
     animation: none;
@@ -1484,10 +1484,10 @@ html {
 
 @keyframes colorize-96 {
   50% {
-    fill: #9d3b2a; } }
+    fill: #0c0404; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st96 {
-  animation: colorize-96 54s linear 9s infinite alternate; }
+  animation: colorize-96 60s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st96:hover {
     animation: none;
@@ -1495,10 +1495,10 @@ html {
 
 @keyframes colorize-97 {
   50% {
-    fill: #5e150d; } }
+    fill: #0e0707; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st97 {
-  animation: colorize-97 30s linear 16s infinite alternate; }
+  animation: colorize-97 12s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st97:hover {
     animation: none;
@@ -1506,10 +1506,10 @@ html {
 
 @keyframes colorize-98 {
   50% {
-    fill: #c86132; } }
+    fill: #d0ccc8; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st98 {
-  animation: colorize-98 36s linear 12s infinite alternate; }
+  animation: colorize-98 68s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st98:hover {
     animation: none;
@@ -1517,10 +1517,10 @@ html {
 
 @keyframes colorize-99 {
   50% {
-    fill: #2b1b12; } }
+    fill: #49403c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st99 {
-  animation: colorize-99 51s linear 16s infinite alternate; }
+  animation: colorize-99 20s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st99:hover {
     animation: none;
@@ -1528,10 +1528,10 @@ html {
 
 @keyframes colorize-100 {
   50% {
-    fill: #1f1b19; } }
+    fill: #e84c21; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st100 {
-  animation: colorize-100 9s linear 13s infinite alternate; }
+  animation: colorize-100 36s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st100:hover {
     animation: none;
@@ -1539,10 +1539,10 @@ html {
 
 @keyframes colorize-101 {
   50% {
-    fill: #130e0c; } }
+    fill: #5f5a58; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st101 {
-  animation: colorize-101 21s linear 1s infinite alternate; }
+  animation: colorize-101 76s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st101:hover {
     animation: none;
@@ -1550,10 +1550,10 @@ html {
 
 @keyframes colorize-102 {
   50% {
-    fill: #fae9e1; } }
+    fill: #eb9442; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st102 {
-  animation: colorize-102 54s linear 8s infinite alternate; }
+  animation: colorize-102 24s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st102:hover {
     animation: none;
@@ -1561,10 +1561,10 @@ html {
 
 @keyframes colorize-103 {
   50% {
-    fill: #ccaea8; } }
+    fill: #341d0e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st103 {
-  animation: colorize-103 12s linear 14s infinite alternate; }
+  animation: colorize-103 4s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st103:hover {
     animation: none;
@@ -1572,10 +1572,10 @@ html {
 
 @keyframes colorize-104 {
   50% {
-    fill: #440c04; } }
+    fill: #250e09; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st104 {
-  animation: colorize-104 36s linear 12s infinite alternate; }
+  animation: colorize-104 36s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st104:hover {
     animation: none;
@@ -1583,10 +1583,10 @@ html {
 
 @keyframes colorize-105 {
   50% {
-    fill: #3a3131; } }
+    fill: #fb9684; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st105 {
-  animation: colorize-105 39s linear 6s infinite alternate; }
+  animation: colorize-105 28s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st105:hover {
     animation: none;
@@ -1594,10 +1594,10 @@ html {
 
 @keyframes colorize-106 {
   50% {
-    fill: #fefbfb; } }
+    fill: #fefbfa; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st106 {
-  animation: colorize-106 9s linear 14s infinite alternate; }
+  animation: colorize-106 52s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st106:hover {
     animation: none;
@@ -1605,10 +1605,10 @@ html {
 
 @keyframes colorize-107 {
   50% {
-    fill: #4f4640; } }
+    fill: #d9b6b0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st107 {
-  animation: colorize-107 39s linear 14s infinite alternate; }
+  animation: colorize-107 20s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st107:hover {
     animation: none;
@@ -1616,10 +1616,10 @@ html {
 
 @keyframes colorize-108 {
   50% {
-    fill: #b83205; } }
+    fill: #9d8885; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st108 {
-  animation: colorize-108 12s linear 1s infinite alternate; }
+  animation: colorize-108 32s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st108:hover {
     animation: none;
@@ -1627,10 +1627,10 @@ html {
 
 @keyframes colorize-109 {
   50% {
-    fill: #93533e; } }
+    fill: #231616; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st109 {
-  animation: colorize-109 36s linear 1s infinite alternate; }
+  animation: colorize-109 32s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st109:hover {
     animation: none;
@@ -1638,10 +1638,10 @@ html {
 
 @keyframes colorize-110 {
   50% {
-    fill: #c4726e; } }
+    fill: #c88c5b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st110 {
-  animation: colorize-110 57s linear 8s infinite alternate; }
+  animation: colorize-110 72s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st110:hover {
     animation: none;
@@ -1649,10 +1649,10 @@ html {
 
 @keyframes colorize-111 {
   50% {
-    fill: #fe5a58; } }
+    fill: #c28851; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st111 {
-  animation: colorize-111 33s linear 2s infinite alternate; }
+  animation: colorize-111 24s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st111:hover {
     animation: none;
@@ -1660,10 +1660,10 @@ html {
 
 @keyframes colorize-112 {
   50% {
-    fill: #42382f; } }
+    fill: #9a9998; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st112 {
-  animation: colorize-112 57s linear 7s infinite alternate; }
+  animation: colorize-112 48s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st112:hover {
     animation: none;
@@ -1671,10 +1671,10 @@ html {
 
 @keyframes colorize-113 {
   50% {
-    fill: #281001; } }
+    fill: #f0dcd1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st113 {
-  animation: colorize-113 33s linear 11s infinite alternate; }
+  animation: colorize-113 4s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st113:hover {
     animation: none;
@@ -1682,10 +1682,10 @@ html {
 
 @keyframes colorize-114 {
   50% {
-    fill: #d6cdcd; } }
+    fill: #a65536; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st114 {
-  animation: colorize-114 12s linear 8s infinite alternate; }
+  animation: colorize-114 16s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st114:hover {
     animation: none;
@@ -1693,10 +1693,10 @@ html {
 
 @keyframes colorize-115 {
   50% {
-    fill: #3d2d29; } }
+    fill: #d2b8ac; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st115 {
-  animation: colorize-115 27s linear 15s infinite alternate; }
+  animation: colorize-115 52s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st115:hover {
     animation: none;
@@ -1704,10 +1704,10 @@ html {
 
 @keyframes colorize-116 {
   50% {
-    fill: #bb3c02; } }
+    fill: #d5c4b3; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st116 {
-  animation: colorize-116 30s linear 1s infinite alternate; }
+  animation: colorize-116 32s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st116:hover {
     animation: none;
@@ -1715,10 +1715,10 @@ html {
 
 @keyframes colorize-117 {
   50% {
-    fill: #be392d; } }
+    fill: #dda46e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st117 {
-  animation: colorize-117 51s linear 8s infinite alternate; }
+  animation: colorize-117 52s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st117:hover {
     animation: none;
@@ -1726,10 +1726,10 @@ html {
 
 @keyframes colorize-118 {
   50% {
-    fill: #8c665f; } }
+    fill: #6e3126; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st118 {
-  animation: colorize-118 27s linear 11s infinite alternate; }
+  animation: colorize-118 60s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st118:hover {
     animation: none;
@@ -1737,10 +1737,10 @@ html {
 
 @keyframes colorize-119 {
   50% {
-    fill: #a36633; } }
+    fill: #fa6a57; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st119 {
-  animation: colorize-119 42s linear 9s infinite alternate; }
+  animation: colorize-119 28s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st119:hover {
     animation: none;
@@ -1748,10 +1748,10 @@ html {
 
 @keyframes colorize-120 {
   50% {
-    fill: #b88d84; } }
+    fill: #de9559; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st120 {
-  animation: colorize-120 39s linear 3s infinite alternate; }
+  animation: colorize-120 28s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st120:hover {
     animation: none;
@@ -1759,10 +1759,10 @@ html {
 
 @keyframes colorize-121 {
   50% {
-    fill: #0b0505; } }
+    fill: #0a0100; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st121 {
-  animation: colorize-121 36s linear 17s infinite alternate; }
+  animation: colorize-121 36s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st121:hover {
     animation: none;
@@ -1770,10 +1770,10 @@ html {
 
 @keyframes colorize-122 {
   50% {
-    fill: #f3eeed; } }
+    fill: #f7d0cf; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st122 {
-  animation: colorize-122 6s linear 14s infinite alternate; }
+  animation: colorize-122 72s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st122:hover {
     animation: none;
@@ -1781,10 +1781,10 @@ html {
 
 @keyframes colorize-123 {
   50% {
-    fill: #b59e87; } }
+    fill: #ef170b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st123 {
-  animation: colorize-123 57s linear 5s infinite alternate; }
+  animation: colorize-123 48s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st123:hover {
     animation: none;
@@ -1792,10 +1792,10 @@ html {
 
 @keyframes colorize-124 {
   50% {
-    fill: #5d2e2d; } }
+    fill: #642f17; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st124 {
-  animation: colorize-124 21s linear 6s infinite alternate; }
+  animation: colorize-124 68s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st124:hover {
     animation: none;
@@ -1803,10 +1803,10 @@ html {
 
 @keyframes colorize-125 {
   50% {
-    fill: #631d0d; } }
+    fill: #d06106; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st125 {
-  animation: colorize-125 42s linear 9s infinite alternate; }
+  animation: colorize-125 12s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st125:hover {
     animation: none;
@@ -1814,10 +1814,10 @@ html {
 
 @keyframes colorize-126 {
   50% {
-    fill: #bbacaa; } }
+    fill: #cf5a54; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st126 {
-  animation: colorize-126 33s linear 4s infinite alternate; }
+  animation: colorize-126 24s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st126:hover {
     animation: none;
@@ -1825,10 +1825,10 @@ html {
 
 @keyframes colorize-127 {
   50% {
-    fill: #653d2f; } }
+    fill: #120b07; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st127 {
-  animation: colorize-127 45s linear 16s infinite alternate; }
+  animation: colorize-127 40s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st127:hover {
     animation: none;
@@ -1836,10 +1836,10 @@ html {
 
 @keyframes colorize-128 {
   50% {
-    fill: #6d3208; } }
+    fill: #efa98a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st128 {
-  animation: colorize-128 9s linear 9s infinite alternate; }
+  animation: colorize-128 24s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st128:hover {
     animation: none;
@@ -1847,10 +1847,10 @@ html {
 
 @keyframes colorize-129 {
   50% {
-    fill: #be908e; } }
+    fill: #5f361b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st129 {
-  animation: colorize-129 33s linear 11s infinite alternate; }
+  animation: colorize-129 16s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st129:hover {
     animation: none;
@@ -1858,10 +1858,10 @@ html {
 
 @keyframes colorize-130 {
   50% {
-    fill: #cd7d2d; } }
+    fill: #fccabb; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st130 {
-  animation: colorize-130 6s linear 15s infinite alternate; }
+  animation: colorize-130 64s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st130:hover {
     animation: none;
@@ -1869,10 +1869,10 @@ html {
 
 @keyframes colorize-131 {
   50% {
-    fill: #9c7554; } }
+    fill: #3a1d17; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st131 {
-  animation: colorize-131 57s linear 4s infinite alternate; }
+  animation: colorize-131 48s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st131:hover {
     animation: none;
@@ -1880,10 +1880,10 @@ html {
 
 @keyframes colorize-132 {
   50% {
-    fill: #ccaca4; } }
+    fill: #fff2f0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st132 {
-  animation: colorize-132 6s linear 6s infinite alternate; }
+  animation: colorize-132 40s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st132:hover {
     animation: none;
@@ -1891,10 +1891,10 @@ html {
 
 @keyframes colorize-133 {
   50% {
-    fill: #f2a097; } }
+    fill: #89552a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st133 {
-  animation: colorize-133 18s linear 4s infinite alternate; }
+  animation: colorize-133 8s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st133:hover {
     animation: none;
@@ -1902,10 +1902,10 @@ html {
 
 @keyframes colorize-134 {
   50% {
-    fill: #a4341e; } }
+    fill: #0d0d0d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st134 {
-  animation: colorize-134 21s linear 17s infinite alternate; }
+  animation: colorize-134 40s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st134:hover {
     animation: none;
@@ -1913,10 +1913,10 @@ html {
 
 @keyframes colorize-135 {
   50% {
-    fill: #f2ceba; } }
+    fill: #090201; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st135 {
-  animation: colorize-135 36s linear 14s infinite alternate; }
+  animation: colorize-135 4s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st135:hover {
     animation: none;
@@ -1924,10 +1924,10 @@ html {
 
 @keyframes colorize-136 {
   50% {
-    fill: #963f3c; } }
+    fill: #fee8e2; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st136 {
-  animation: colorize-136 12s linear 10s infinite alternate; }
+  animation: colorize-136 20s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st136:hover {
     animation: none;
@@ -1935,10 +1935,10 @@ html {
 
 @keyframes colorize-137 {
   50% {
-    fill: white; } }
+    fill: #fcd9c5; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st137 {
-  animation: colorize-137 36s linear 5s infinite alternate; }
+  animation: colorize-137 76s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st137:hover {
     animation: none;
@@ -1946,10 +1946,10 @@ html {
 
 @keyframes colorize-138 {
   50% {
-    fill: #070303; } }
+    fill: #562f1f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st138 {
-  animation: colorize-138 33s linear 15s infinite alternate; }
+  animation: colorize-138 32s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st138:hover {
     animation: none;
@@ -1957,10 +1957,10 @@ html {
 
 @keyframes colorize-139 {
   50% {
-    fill: #d49887; } }
+    fill: #28150b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st139 {
-  animation: colorize-139 39s linear 13s infinite alternate; }
+  animation: colorize-139 60s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st139:hover {
     animation: none;
@@ -1968,10 +1968,10 @@ html {
 
 @keyframes colorize-140 {
   50% {
-    fill: #311711; } }
+    fill: #efcbb9; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st140 {
-  animation: colorize-140 30s linear 8s infinite alternate; }
+  animation: colorize-140 56s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st140:hover {
     animation: none;
@@ -1979,10 +1979,10 @@ html {
 
 @keyframes colorize-141 {
   50% {
-    fill: #c1b5ae; } }
+    fill: #e3681c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st141 {
-  animation: colorize-141 39s linear 10s infinite alternate; }
+  animation: colorize-141 36s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st141:hover {
     animation: none;
@@ -1990,10 +1990,10 @@ html {
 
 @keyframes colorize-142 {
   50% {
-    fill: #a9887e; } }
+    fill: #bc715c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st142 {
-  animation: colorize-142 36s linear 17s infinite alternate; }
+  animation: colorize-142 40s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st142:hover {
     animation: none;
@@ -2001,10 +2001,10 @@ html {
 
 @keyframes colorize-143 {
   50% {
-    fill: #1f0a05; } }
+    fill: #090706; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st143 {
-  animation: colorize-143 24s linear 14s infinite alternate; }
+  animation: colorize-143 24s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st143:hover {
     animation: none;
@@ -2012,10 +2012,10 @@ html {
 
 @keyframes colorize-144 {
   50% {
-    fill: #f0d6d6; } }
+    fill: #1f110f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st144 {
-  animation: colorize-144 48s linear 16s infinite alternate; }
+  animation: colorize-144 4s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st144:hover {
     animation: none;
@@ -2023,10 +2023,10 @@ html {
 
 @keyframes colorize-145 {
   50% {
-    fill: #fba34b; } }
+    fill: #c37a32; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st145 {
-  animation: colorize-145 21s linear 6s infinite alternate; }
+  animation: colorize-145 44s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st145:hover {
     animation: none;
@@ -2034,10 +2034,10 @@ html {
 
 @keyframes colorize-146 {
   50% {
-    fill: #837877; } }
+    fill: #e5e1e1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st146 {
-  animation: colorize-146 12s linear 11s infinite alternate; }
+  animation: colorize-146 12s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st146:hover {
     animation: none;
@@ -2045,10 +2045,10 @@ html {
 
 @keyframes colorize-147 {
   50% {
-    fill: #190900; } }
+    fill: #eaccbe; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st147 {
-  animation: colorize-147 9s linear 14s infinite alternate; }
+  animation: colorize-147 12s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st147:hover {
     animation: none;
@@ -2056,10 +2056,10 @@ html {
 
 @keyframes colorize-148 {
   50% {
-    fill: #6a5048; } }
+    fill: #732921; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st148 {
-  animation: colorize-148 54s linear 8s infinite alternate; }
+  animation: colorize-148 72s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st148:hover {
     animation: none;
@@ -2067,10 +2067,10 @@ html {
 
 @keyframes colorize-149 {
   50% {
-    fill: #e71d13; } }
+    fill: #060504; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st149 {
-  animation: colorize-149 42s linear 11s infinite alternate; }
+  animation: colorize-149 68s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st149:hover {
     animation: none;
@@ -2078,10 +2078,10 @@ html {
 
 @keyframes colorize-150 {
   50% {
-    fill: #a60803; } }
+    fill: #e07552; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st150 {
-  animation: colorize-150 6s linear 12s infinite alternate; }
+  animation: colorize-150 40s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st150:hover {
     animation: none;
@@ -2089,10 +2089,10 @@ html {
 
 @keyframes colorize-151 {
   50% {
-    fill: #6e574e; } }
+    fill: #75361f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st151 {
-  animation: colorize-151 39s linear 7s infinite alternate; }
+  animation: colorize-151 20s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st151:hover {
     animation: none;
@@ -2100,10 +2100,10 @@ html {
 
 @keyframes colorize-152 {
   50% {
-    fill: #7f372f; } }
+    fill: #15110f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st152 {
-  animation: colorize-152 24s linear 2s infinite alternate; }
+  animation: colorize-152 68s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st152:hover {
     animation: none;
@@ -2111,10 +2111,10 @@ html {
 
 @keyframes colorize-153 {
   50% {
-    fill: #cb8c4d; } }
+    fill: #e9e7e7; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st153 {
-  animation: colorize-153 48s linear 11s infinite alternate; }
+  animation: colorize-153 40s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st153:hover {
     animation: none;
@@ -2122,10 +2122,10 @@ html {
 
 @keyframes colorize-154 {
   50% {
-    fill: #9d403f; } }
+    fill: #100f0f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st154 {
-  animation: colorize-154 6s linear 1s infinite alternate; }
+  animation: colorize-154 16s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st154:hover {
     animation: none;
@@ -2133,10 +2133,10 @@ html {
 
 @keyframes colorize-155 {
   50% {
-    fill: #040101; } }
+    fill: #dbbea9; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st155 {
-  animation: colorize-155 42s linear 2s infinite alternate; }
+  animation: colorize-155 28s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st155:hover {
     animation: none;
@@ -2144,10 +2144,10 @@ html {
 
 @keyframes colorize-156 {
   50% {
-    fill: #f7615e; } }
+    fill: #f65c2c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st156 {
-  animation: colorize-156 51s linear 8s infinite alternate; }
+  animation: colorize-156 64s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st156:hover {
     animation: none;
@@ -2155,10 +2155,10 @@ html {
 
 @keyframes colorize-157 {
   50% {
-    fill: #927c77; } }
+    fill: #443a36; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st157 {
-  animation: colorize-157 27s linear 14s infinite alternate; }
+  animation: colorize-157 56s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st157:hover {
     animation: none;
@@ -2166,10 +2166,10 @@ html {
 
 @keyframes colorize-158 {
   50% {
-    fill: #e84f02; } }
+    fill: #45270d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st158 {
-  animation: colorize-158 18s linear 12s infinite alternate; }
+  animation: colorize-158 4s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st158:hover {
     animation: none;
@@ -2177,10 +2177,10 @@ html {
 
 @keyframes colorize-159 {
   50% {
-    fill: #150504; } }
+    fill: #0f0b0b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st159 {
-  animation: colorize-159 27s linear 13s infinite alternate; }
+  animation: colorize-159 72s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st159:hover {
     animation: none;
@@ -2188,10 +2188,10 @@ html {
 
 @keyframes colorize-160 {
   50% {
-    fill: #7c3918; } }
+    fill: #4f170d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st160 {
-  animation: colorize-160 6s linear 5s infinite alternate; }
+  animation: colorize-160 28s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st160:hover {
     animation: none;
@@ -2199,10 +2199,10 @@ html {
 
 @keyframes colorize-161 {
   50% {
-    fill: #fcece9; } }
+    fill: #fbd8cb; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st161 {
-  animation: colorize-161 48s linear 15s infinite alternate; }
+  animation: colorize-161 56s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st161:hover {
     animation: none;
@@ -2210,10 +2210,10 @@ html {
 
 @keyframes colorize-162 {
   50% {
-    fill: #fce9e8; } }
+    fill: #aea29e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st162 {
-  animation: colorize-162 15s linear 2s infinite alternate; }
+  animation: colorize-162 40s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st162:hover {
     animation: none;
@@ -2221,10 +2221,10 @@ html {
 
 @keyframes colorize-163 {
   50% {
-    fill: #d6a99f; } }
+    fill: #e3cdba; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st163 {
-  animation: colorize-163 6s linear 16s infinite alternate; }
+  animation: colorize-163 4s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st163:hover {
     animation: none;
@@ -2232,10 +2232,10 @@ html {
 
 @keyframes colorize-164 {
   50% {
-    fill: #953509; } }
+    fill: #6b3400; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st164 {
-  animation: colorize-164 51s linear 16s infinite alternate; }
+  animation: colorize-164 36s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st164:hover {
     animation: none;
@@ -2243,10 +2243,10 @@ html {
 
 @keyframes colorize-165 {
   50% {
-    fill: #b0551c; } }
+    fill: #614333; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st165 {
-  animation: colorize-165 18s linear 2s infinite alternate; }
+  animation: colorize-165 36s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st165:hover {
     animation: none;
@@ -2254,10 +2254,10 @@ html {
 
 @keyframes colorize-166 {
   50% {
-    fill: #c2845b; } }
+    fill: #6e463f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st166 {
-  animation: colorize-166 51s linear 2s infinite alternate; }
+  animation: colorize-166 72s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st166:hover {
     animation: none;
@@ -2265,10 +2265,10 @@ html {
 
 @keyframes colorize-167 {
   50% {
-    fill: #482519; } }
+    fill: #8b847e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st167 {
-  animation: colorize-167 21s linear 9s infinite alternate; }
+  animation: colorize-167 68s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st167:hover {
     animation: none;
@@ -2276,10 +2276,10 @@ html {
 
 @keyframes colorize-168 {
   50% {
-    fill: #3d2106; } }
+    fill: #f8dcce; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st168 {
-  animation: colorize-168 27s linear 14s infinite alternate; }
+  animation: colorize-168 32s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st168:hover {
     animation: none;
@@ -2287,10 +2287,10 @@ html {
 
 @keyframes colorize-169 {
   50% {
-    fill: #423129; } }
+    fill: #c7681a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st169 {
-  animation: colorize-169 24s linear 17s infinite alternate; }
+  animation: colorize-169 76s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st169:hover {
     animation: none;
@@ -2298,10 +2298,10 @@ html {
 
 @keyframes colorize-170 {
   50% {
-    fill: #252323; } }
+    fill: #d68c76; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st170 {
-  animation: colorize-170 51s linear 6s infinite alternate; }
+  animation: colorize-170 4s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st170:hover {
     animation: none;
@@ -2309,10 +2309,10 @@ html {
 
 @keyframes colorize-171 {
   50% {
-    fill: #453730; } }
+    fill: #be806a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st171 {
-  animation: colorize-171 18s linear 17s infinite alternate; }
+  animation: colorize-171 60s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st171:hover {
     animation: none;
@@ -2320,10 +2320,10 @@ html {
 
 @keyframes colorize-172 {
   50% {
-    fill: #fbefee; } }
+    fill: #1c1311; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st172 {
-  animation: colorize-172 24s linear 3s infinite alternate; }
+  animation: colorize-172 16s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st172:hover {
     animation: none;
@@ -2331,10 +2331,10 @@ html {
 
 @keyframes colorize-173 {
   50% {
-    fill: #131111; } }
+    fill: #ecadac; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st173 {
-  animation: colorize-173 42s linear 13s infinite alternate; }
+  animation: colorize-173 4s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st173:hover {
     animation: none;
@@ -2342,10 +2342,10 @@ html {
 
 @keyframes colorize-174 {
   50% {
-    fill: #060504; } }
+    fill: #0f0300; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st174 {
-  animation: colorize-174 57s linear 1s infinite alternate; }
+  animation: colorize-174 76s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st174:hover {
     animation: none;
@@ -2353,10 +2353,10 @@ html {
 
 @keyframes colorize-175 {
   50% {
-    fill: #bf6531; } }
+    fill: #3f3837; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st175 {
-  animation: colorize-175 15s linear 3s infinite alternate; }
+  animation: colorize-175 36s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st175:hover {
     animation: none;
@@ -2364,10 +2364,10 @@ html {
 
 @keyframes colorize-176 {
   50% {
-    fill: #ceccca; } }
+    fill: #3f190e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st176 {
-  animation: colorize-176 12s linear 15s infinite alternate; }
+  animation: colorize-176 8s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st176:hover {
     animation: none;
@@ -2375,10 +2375,10 @@ html {
 
 @keyframes colorize-177 {
   50% {
-    fill: #f27c1c; } }
+    fill: #c92918; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st177 {
-  animation: colorize-177 24s linear 15s infinite alternate; }
+  animation: colorize-177 48s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st177:hover {
     animation: none;
@@ -2386,10 +2386,10 @@ html {
 
 @keyframes colorize-178 {
   50% {
-    fill: #efc7c3; } }
+    fill: #ab6130; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st178 {
-  animation: colorize-178 24s linear 17s infinite alternate; }
+  animation: colorize-178 36s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st178:hover {
     animation: none;
@@ -2397,10 +2397,10 @@ html {
 
 @keyframes colorize-179 {
   50% {
-    fill: #d97a73; } }
+    fill: #d14e33; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st179 {
-  animation: colorize-179 15s linear 3s infinite alternate; }
+  animation: colorize-179 64s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st179:hover {
     animation: none;
@@ -2408,10 +2408,10 @@ html {
 
 @keyframes colorize-180 {
   50% {
-    fill: #fff9f5; } }
+    fill: #fbad9d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st180 {
-  animation: colorize-180 39s linear 14s infinite alternate; }
+  animation: colorize-180 72s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st180:hover {
     animation: none;
@@ -2419,10 +2419,10 @@ html {
 
 @keyframes colorize-181 {
   50% {
-    fill: #f7b997; } }
+    fill: #f6211e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st181 {
-  animation: colorize-181 30s linear 10s infinite alternate; }
+  animation: colorize-181 20s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st181:hover {
     animation: none;
@@ -2430,10 +2430,10 @@ html {
 
 @keyframes colorize-182 {
   50% {
-    fill: #af2b1d; } }
+    fill: #f07e3d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st182 {
-  animation: colorize-182 6s linear 4s infinite alternate; }
+  animation: colorize-182 56s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st182:hover {
     animation: none;
@@ -2441,10 +2441,10 @@ html {
 
 @keyframes colorize-183 {
   50% {
-    fill: #f9e5e2; } }
+    fill: #352927; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st183 {
-  animation: colorize-183 21s linear 13s infinite alternate; }
+  animation: colorize-183 44s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st183:hover {
     animation: none;
@@ -2452,10 +2452,10 @@ html {
 
 @keyframes colorize-184 {
   50% {
-    fill: #f0cbc1; } }
+    fill: #e9ac81; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st184 {
-  animation: colorize-184 12s linear 13s infinite alternate; }
+  animation: colorize-184 44s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st184:hover {
     animation: none;
@@ -2463,10 +2463,10 @@ html {
 
 @keyframes colorize-185 {
   50% {
-    fill: #fdf9f7; } }
+    fill: #c94d1d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st185 {
-  animation: colorize-185 36s linear 10s infinite alternate; }
+  animation: colorize-185 60s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st185:hover {
     animation: none;
@@ -2474,10 +2474,10 @@ html {
 
 @keyframes colorize-186 {
   50% {
-    fill: #af6950; } }
+    fill: #e7896f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st186 {
-  animation: colorize-186 30s linear 5s infinite alternate; }
+  animation: colorize-186 72s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st186:hover {
     animation: none;
@@ -2485,10 +2485,10 @@ html {
 
 @keyframes colorize-187 {
   50% {
-    fill: #190700; } }
+    fill: #080402; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st187 {
-  animation: colorize-187 45s linear 1s infinite alternate; }
+  animation: colorize-187 28s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st187:hover {
     animation: none;
@@ -2496,10 +2496,10 @@ html {
 
 @keyframes colorize-188 {
   50% {
-    fill: #aea4a2; } }
+    fill: #2c1a11; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st188 {
-  animation: colorize-188 42s linear 8s infinite alternate; }
+  animation: colorize-188 16s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st188:hover {
     animation: none;
@@ -2507,10 +2507,10 @@ html {
 
 @keyframes colorize-189 {
   50% {
-    fill: #ebe0d6; } }
+    fill: #bf908d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st189 {
-  animation: colorize-189 6s linear 9s infinite alternate; }
+  animation: colorize-189 48s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st189:hover {
     animation: none;
@@ -2518,10 +2518,10 @@ html {
 
 @keyframes colorize-190 {
   50% {
-    fill: #ffac75; } }
+    fill: #ed9e96; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st190 {
-  animation: colorize-190 30s linear 14s infinite alternate; }
+  animation: colorize-190 56s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st190:hover {
     animation: none;
@@ -2529,10 +2529,10 @@ html {
 
 @keyframes colorize-191 {
   50% {
-    fill: #da7144; } }
+    fill: #030202; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st191 {
-  animation: colorize-191 42s linear 10s infinite alternate; }
+  animation: colorize-191 68s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st191:hover {
     animation: none;
@@ -2540,10 +2540,10 @@ html {
 
 @keyframes colorize-192 {
   50% {
-    fill: #bd280a; } }
+    fill: #fff6f5; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st192 {
-  animation: colorize-192 21s linear 14s infinite alternate; }
+  animation: colorize-192 60s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st192:hover {
     animation: none;
@@ -2551,10 +2551,10 @@ html {
 
 @keyframes colorize-193 {
   50% {
-    fill: #a58583; } }
+    fill: #fef6f1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st193 {
-  animation: colorize-193 12s linear 1s infinite alternate; }
+  animation: colorize-193 40s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st193:hover {
     animation: none;
@@ -2562,10 +2562,10 @@ html {
 
 @keyframes colorize-194 {
   50% {
-    fill: #fedbd8; } }
+    fill: #732407; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st194 {
-  animation: colorize-194 21s linear 16s infinite alternate; }
+  animation: colorize-194 76s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st194:hover {
     animation: none;
@@ -2573,10 +2573,10 @@ html {
 
 @keyframes colorize-195 {
   50% {
-    fill: #c8765b; } }
+    fill: #f99b94; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st195 {
-  animation: colorize-195 48s linear 3s infinite alternate; }
+  animation: colorize-195 44s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st195:hover {
     animation: none;
@@ -2584,10 +2584,10 @@ html {
 
 @keyframes colorize-196 {
   50% {
-    fill: #27211c; } }
+    fill: white; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st196 {
-  animation: colorize-196 9s linear 13s infinite alternate; }
+  animation: colorize-196 32s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st196:hover {
     animation: none;
@@ -2595,10 +2595,10 @@ html {
 
 @keyframes colorize-197 {
   50% {
-    fill: #1e1515; } }
+    fill: #dda39c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st197 {
-  animation: colorize-197 57s linear 17s infinite alternate; }
+  animation: colorize-197 64s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st197:hover {
     animation: none;
@@ -2606,10 +2606,10 @@ html {
 
 @keyframes colorize-198 {
   50% {
-    fill: #debdb5; } }
+    fill: #f5aaa3; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st198 {
-  animation: colorize-198 30s linear 14s infinite alternate; }
+  animation: colorize-198 32s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st198:hover {
     animation: none;
@@ -2617,10 +2617,10 @@ html {
 
 @keyframes colorize-199 {
   50% {
-    fill: #5c4137; } }
+    fill: #714f2d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st199 {
-  animation: colorize-199 36s linear 6s infinite alternate; }
+  animation: colorize-199 12s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st199:hover {
     animation: none;
@@ -2628,10 +2628,10 @@ html {
 
 @keyframes colorize-200 {
   50% {
-    fill: #fdfcfc; } }
+    fill: #e1c8c1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st200 {
-  animation: colorize-200 39s linear 9s infinite alternate; }
+  animation: colorize-200 28s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st200:hover {
     animation: none;
@@ -2639,10 +2639,10 @@ html {
 
 @keyframes colorize-201 {
   50% {
-    fill: #060504; } }
+    fill: #faeeea; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st201 {
-  animation: colorize-201 51s linear 15s infinite alternate; }
+  animation: colorize-201 28s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st201:hover {
     animation: none;
@@ -2650,10 +2650,10 @@ html {
 
 @keyframes colorize-202 {
   50% {
-    fill: white; } }
+    fill: #342723; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st202 {
-  animation: colorize-202 33s linear 2s infinite alternate; }
+  animation: colorize-202 28s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st202:hover {
     animation: none;
@@ -2661,10 +2661,10 @@ html {
 
 @keyframes colorize-203 {
   50% {
-    fill: #b18b7c; } }
+    fill: #faeee6; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st203 {
-  animation: colorize-203 24s linear 17s infinite alternate; }
+  animation: colorize-203 8s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st203:hover {
     animation: none;
@@ -2672,10 +2672,10 @@ html {
 
 @keyframes colorize-204 {
   50% {
-    fill: #3c211a; } }
+    fill: #080302; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st204 {
-  animation: colorize-204 6s linear 4s infinite alternate; }
+  animation: colorize-204 40s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st204:hover {
     animation: none;
@@ -2683,10 +2683,10 @@ html {
 
 @keyframes colorize-205 {
   50% {
-    fill: #fcf7f3; } }
+    fill: #ab281c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st205 {
-  animation: colorize-205 36s linear 10s infinite alternate; }
+  animation: colorize-205 60s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st205:hover {
     animation: none;
@@ -2694,10 +2694,10 @@ html {
 
 @keyframes colorize-206 {
   50% {
-    fill: #f1b4ac; } }
+    fill: #624328; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st206 {
-  animation: colorize-206 12s linear 1s infinite alternate; }
+  animation: colorize-206 56s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st206:hover {
     animation: none;
@@ -2705,10 +2705,10 @@ html {
 
 @keyframes colorize-207 {
   50% {
-    fill: #e27f46; } }
+    fill: #3c3a39; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st207 {
-  animation: colorize-207 3s linear 4s infinite alternate; }
+  animation: colorize-207 52s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st207:hover {
     animation: none;
@@ -2716,10 +2716,10 @@ html {
 
 @keyframes colorize-208 {
   50% {
-    fill: #918983; } }
+    fill: #fdede3; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st208 {
-  animation: colorize-208 45s linear 12s infinite alternate; }
+  animation: colorize-208 72s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st208:hover {
     animation: none;
@@ -2727,10 +2727,10 @@ html {
 
 @keyframes colorize-209 {
   50% {
-    fill: #f7dfca; } }
+    fill: #b9b2b1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st209 {
-  animation: colorize-209 33s linear 4s infinite alternate; }
+  animation: colorize-209 60s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st209:hover {
     animation: none;
@@ -2738,10 +2738,10 @@ html {
 
 @keyframes colorize-210 {
   50% {
-    fill: #f6e3d0; } }
+    fill: #8d3f1b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st210 {
-  animation: colorize-210 9s linear 11s infinite alternate; }
+  animation: colorize-210 8s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st210:hover {
     animation: none;
@@ -2749,10 +2749,10 @@ html {
 
 @keyframes colorize-211 {
   50% {
-    fill: #292424; } }
+    fill: #826664; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st211 {
-  animation: colorize-211 57s linear 6s infinite alternate; }
+  animation: colorize-211 68s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st211:hover {
     animation: none;
@@ -2760,10 +2760,10 @@ html {
 
 @keyframes colorize-212 {
   50% {
-    fill: #914d08; } }
+    fill: #f3f2f1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st212 {
-  animation: colorize-212 54s linear 14s infinite alternate; }
+  animation: colorize-212 20s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st212:hover {
     animation: none;
@@ -2771,10 +2771,10 @@ html {
 
 @keyframes colorize-213 {
   50% {
-    fill: #ba3408; } }
+    fill: #602101; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st213 {
-  animation: colorize-213 24s linear 4s infinite alternate; }
+  animation: colorize-213 24s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st213:hover {
     animation: none;
@@ -2782,10 +2782,10 @@ html {
 
 @keyframes colorize-214 {
   50% {
-    fill: #dab8a4; } }
+    fill: #fffcfa; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st214 {
-  animation: colorize-214 15s linear 1s infinite alternate; }
+  animation: colorize-214 56s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st214:hover {
     animation: none;
@@ -2793,10 +2793,10 @@ html {
 
 @keyframes colorize-215 {
   50% {
-    fill: #302a27; } }
+    fill: #eadddc; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st215 {
-  animation: colorize-215 6s linear 4s infinite alternate; }
+  animation: colorize-215 28s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st215:hover {
     animation: none;
@@ -2804,10 +2804,10 @@ html {
 
 @keyframes colorize-216 {
   50% {
-    fill: #ff791a; } }
+    fill: #dc5228; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st216 {
-  animation: colorize-216 42s linear 11s infinite alternate; }
+  animation: colorize-216 12s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st216:hover {
     animation: none;
@@ -2815,10 +2815,10 @@ html {
 
 @keyframes colorize-217 {
   50% {
-    fill: #fef0e6; } }
+    fill: #fdfcfc; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st217 {
-  animation: colorize-217 9s linear 13s infinite alternate; }
+  animation: colorize-217 20s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st217:hover {
     animation: none;
@@ -2826,10 +2826,10 @@ html {
 
 @keyframes colorize-218 {
   50% {
-    fill: #cf9868; } }
+    fill: #4c4743; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st218 {
-  animation: colorize-218 36s linear 14s infinite alternate; }
+  animation: colorize-218 4s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st218:hover {
     animation: none;
@@ -2837,10 +2837,10 @@ html {
 
 @keyframes colorize-219 {
   50% {
-    fill: #eddbcf; } }
+    fill: #444241; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st219 {
-  animation: colorize-219 3s linear 17s infinite alternate; }
+  animation: colorize-219 20s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st219:hover {
     animation: none;
@@ -2848,10 +2848,10 @@ html {
 
 @keyframes colorize-220 {
   50% {
-    fill: #603d2e; } }
+    fill: #e7dada; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st220 {
-  animation: colorize-220 33s linear 14s infinite alternate; }
+  animation: colorize-220 60s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st220:hover {
     animation: none;
@@ -2859,10 +2859,10 @@ html {
 
 @keyframes colorize-221 {
   50% {
-    fill: #1e0300; } }
+    fill: #f4eae2; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st221 {
-  animation: colorize-221 42s linear 12s infinite alternate; }
+  animation: colorize-221 64s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st221:hover {
     animation: none;
@@ -2870,10 +2870,10 @@ html {
 
 @keyframes colorize-222 {
   50% {
-    fill: #191010; } }
+    fill: #34251d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st222 {
-  animation: colorize-222 36s linear 16s infinite alternate; }
+  animation: colorize-222 76s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st222:hover {
     animation: none;
@@ -2881,10 +2881,10 @@ html {
 
 @keyframes colorize-223 {
   50% {
-    fill: #9c9291; } }
+    fill: #0a0100; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st223 {
-  animation: colorize-223 9s linear 17s infinite alternate; }
+  animation: colorize-223 64s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st223:hover {
     animation: none;
@@ -2892,10 +2892,10 @@ html {
 
 @keyframes colorize-224 {
   50% {
-    fill: #f3e7dd; } }
+    fill: #d18d7b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st224 {
-  animation: colorize-224 15s linear 15s infinite alternate; }
+  animation: colorize-224 76s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st224:hover {
     animation: none;
@@ -2903,10 +2903,10 @@ html {
 
 @keyframes colorize-225 {
   50% {
-    fill: #fbd2c1; } }
+    fill: white; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st225 {
-  animation: colorize-225 54s linear 12s infinite alternate; }
+  animation: colorize-225 28s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st225:hover {
     animation: none;
@@ -2914,10 +2914,10 @@ html {
 
 @keyframes colorize-226 {
   50% {
-    fill: #988a86; } }
+    fill: #261608; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st226 {
-  animation: colorize-226 21s linear 3s infinite alternate; }
+  animation: colorize-226 16s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st226:hover {
     animation: none;
@@ -2925,10 +2925,10 @@ html {
 
 @keyframes colorize-227 {
   50% {
-    fill: #72635f; } }
+    fill: #f19941; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st227 {
-  animation: colorize-227 24s linear 14s infinite alternate; }
+  animation: colorize-227 76s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st227:hover {
     animation: none;
@@ -2936,10 +2936,10 @@ html {
 
 @keyframes colorize-228 {
   50% {
-    fill: #7e301b; } }
+    fill: #c0b7b5; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st228 {
-  animation: colorize-228 27s linear 15s infinite alternate; }
+  animation: colorize-228 48s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st228:hover {
     animation: none;
@@ -2947,10 +2947,10 @@ html {
 
 @keyframes colorize-229 {
   50% {
-    fill: #db6651; } }
+    fill: #ebd0cc; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st229 {
-  animation: colorize-229 42s linear 4s infinite alternate; }
+  animation: colorize-229 32s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st229:hover {
     animation: none;
@@ -2958,10 +2958,10 @@ html {
 
 @keyframes colorize-230 {
   50% {
-    fill: #f6ece4; } }
+    fill: #fbf7f4; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st230 {
-  animation: colorize-230 12s linear 11s infinite alternate; }
+  animation: colorize-230 20s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st230:hover {
     animation: none;
@@ -2969,10 +2969,10 @@ html {
 
 @keyframes colorize-231 {
   50% {
-    fill: #8f0e04; } }
+    fill: #1c0802; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st231 {
-  animation: colorize-231 51s linear 3s infinite alternate; }
+  animation: colorize-231 24s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st231:hover {
     animation: none;
@@ -2980,10 +2980,10 @@ html {
 
 @keyframes colorize-232 {
   50% {
-    fill: #140f0b; } }
+    fill: #bd877f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st232 {
-  animation: colorize-232 6s linear 7s infinite alternate; }
+  animation: colorize-232 72s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st232:hover {
     animation: none;
@@ -2991,10 +2991,10 @@ html {
 
 @keyframes colorize-233 {
   50% {
-    fill: #e1d4d0; } }
+    fill: #ed7250; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st233 {
-  animation: colorize-233 21s linear 14s infinite alternate; }
+  animation: colorize-233 40s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st233:hover {
     animation: none;
@@ -3002,10 +3002,10 @@ html {
 
 @keyframes colorize-234 {
   50% {
-    fill: #f65828; } }
+    fill: #3f210e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st234 {
-  animation: colorize-234 36s linear 9s infinite alternate; }
+  animation: colorize-234 56s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st234:hover {
     animation: none;
@@ -3013,10 +3013,10 @@ html {
 
 @keyframes colorize-235 {
   50% {
-    fill: #ff998a; } }
+    fill: #cb7f48; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st235 {
-  animation: colorize-235 15s linear 11s infinite alternate; }
+  animation: colorize-235 40s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st235:hover {
     animation: none;
@@ -3024,10 +3024,10 @@ html {
 
 @keyframes colorize-236 {
   50% {
-    fill: #864709; } }
+    fill: #45291c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st236 {
-  animation: colorize-236 27s linear 15s infinite alternate; }
+  animation: colorize-236 8s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st236:hover {
     animation: none;
@@ -3035,10 +3035,10 @@ html {
 
 @keyframes colorize-237 {
   50% {
-    fill: #570c00; } }
+    fill: #edac7e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st237 {
-  animation: colorize-237 18s linear 2s infinite alternate; }
+  animation: colorize-237 48s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st237:hover {
     animation: none;
@@ -3046,10 +3046,10 @@ html {
 
 @keyframes colorize-238 {
   50% {
-    fill: #131111; } }
+    fill: #1e0601; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st238 {
-  animation: colorize-238 15s linear 1s infinite alternate; }
+  animation: colorize-238 12s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st238:hover {
     animation: none;
@@ -3057,10 +3057,10 @@ html {
 
 @keyframes colorize-239 {
   50% {
-    fill: #d0b0a4; } }
+    fill: #6e6763; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st239 {
-  animation: colorize-239 45s linear 3s infinite alternate; }
+  animation: colorize-239 68s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st239:hover {
     animation: none;
@@ -3068,10 +3068,10 @@ html {
 
 @keyframes colorize-240 {
   50% {
-    fill: #594845; } }
+    fill: #e2863c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st240 {
-  animation: colorize-240 33s linear 5s infinite alternate; }
+  animation: colorize-240 32s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st240:hover {
     animation: none;
@@ -3079,10 +3079,10 @@ html {
 
 @keyframes colorize-241 {
   50% {
-    fill: #896158; } }
+    fill: #fbe7e0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st241 {
-  animation: colorize-241 12s linear 15s infinite alternate; }
+  animation: colorize-241 76s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st241:hover {
     animation: none;
@@ -3090,10 +3090,10 @@ html {
 
 @keyframes colorize-242 {
   50% {
-    fill: #4d100a; } }
+    fill: #8d2b1c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st242 {
-  animation: colorize-242 42s linear 10s infinite alternate; }
+  animation: colorize-242 48s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st242:hover {
     animation: none;
@@ -3101,10 +3101,10 @@ html {
 
 @keyframes colorize-243 {
   50% {
-    fill: #b49c93; } }
+    fill: #f5d0ad; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st243 {
-  animation: colorize-243 18s linear 16s infinite alternate; }
+  animation: colorize-243 28s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st243:hover {
     animation: none;
@@ -3112,10 +3112,10 @@ html {
 
 @keyframes colorize-244 {
   50% {
-    fill: #9f5519; } }
+    fill: #221611; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st244 {
-  animation: colorize-244 54s linear 9s infinite alternate; }
+  animation: colorize-244 72s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st244:hover {
     animation: none;
@@ -3123,10 +3123,10 @@ html {
 
 @keyframes colorize-245 {
   50% {
-    fill: #ec190e; } }
+    fill: #734530; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st245 {
-  animation: colorize-245 15s linear 17s infinite alternate; }
+  animation: colorize-245 4s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st245:hover {
     animation: none;
@@ -3134,10 +3134,10 @@ html {
 
 @keyframes colorize-246 {
   50% {
-    fill: #e89b96; } }
+    fill: #a61411; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st246 {
-  animation: colorize-246 15s linear 5s infinite alternate; }
+  animation: colorize-246 56s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st246:hover {
     animation: none;
@@ -3145,10 +3145,10 @@ html {
 
 @keyframes colorize-247 {
   50% {
-    fill: #c6a290; } }
+    fill: #5b3125; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st247 {
-  animation: colorize-247 33s linear 16s infinite alternate; }
+  animation: colorize-247 20s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st247:hover {
     animation: none;
@@ -3156,10 +3156,10 @@ html {
 
 @keyframes colorize-248 {
   50% {
-    fill: #651a10; } }
+    fill: #89433e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st248 {
-  animation: colorize-248 12s linear 9s infinite alternate; }
+  animation: colorize-248 32s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st248:hover {
     animation: none;
@@ -3167,10 +3167,10 @@ html {
 
 @keyframes colorize-249 {
   50% {
-    fill: #f0b58e; } }
+    fill: #e88378; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st249 {
-  animation: colorize-249 39s linear 3s infinite alternate; }
+  animation: colorize-249 48s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st249:hover {
     animation: none;
@@ -3178,10 +3178,10 @@ html {
 
 @keyframes colorize-250 {
   50% {
-    fill: #2f1609; } }
+    fill: #b35647; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st250 {
-  animation: colorize-250 27s linear 17s infinite alternate; }
+  animation: colorize-250 32s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st250:hover {
     animation: none;
@@ -3189,10 +3189,10 @@ html {
 
 @keyframes colorize-251 {
   50% {
-    fill: #210702; } }
+    fill: #3b1e0d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st251 {
-  animation: colorize-251 15s linear 2s infinite alternate; }
+  animation: colorize-251 4s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st251:hover {
     animation: none;
@@ -3200,10 +3200,10 @@ html {
 
 @keyframes colorize-252 {
   50% {
-    fill: #fbe8e5; } }
+    fill: #f15704; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st252 {
-  animation: colorize-252 21s linear 7s infinite alternate; }
+  animation: colorize-252 76s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st252:hover {
     animation: none;
@@ -3211,10 +3211,10 @@ html {
 
 @keyframes colorize-253 {
   50% {
-    fill: #882b0c; } }
+    fill: #423838; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st253 {
-  animation: colorize-253 39s linear 12s infinite alternate; }
+  animation: colorize-253 48s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st253:hover {
     animation: none;
@@ -3222,10 +3222,10 @@ html {
 
 @keyframes colorize-254 {
   50% {
-    fill: #b0abab; } }
+    fill: #eb9f70; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st254 {
-  animation: colorize-254 21s linear 14s infinite alternate; }
+  animation: colorize-254 60s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st254:hover {
     animation: none;
@@ -3233,10 +3233,10 @@ html {
 
 @keyframes colorize-255 {
   50% {
-    fill: #38201f; } }
+    fill: #c34532; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st255 {
-  animation: colorize-255 51s linear 12s infinite alternate; }
+  animation: colorize-255 20s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st255:hover {
     animation: none;
@@ -3244,10 +3244,10 @@ html {
 
 @keyframes colorize-256 {
   50% {
-    fill: #330b00; } }
+    fill: #fe9c95; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st256 {
-  animation: colorize-256 39s linear 10s infinite alternate; }
+  animation: colorize-256 32s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st256:hover {
     animation: none;
@@ -3255,10 +3255,10 @@ html {
 
 @keyframes colorize-257 {
   50% {
-    fill: #898080; } }
+    fill: #f2e3e3; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st257 {
-  animation: colorize-257 57s linear 14s infinite alternate; }
+  animation: colorize-257 8s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st257:hover {
     animation: none;
@@ -3266,10 +3266,10 @@ html {
 
 @keyframes colorize-258 {
   50% {
-    fill: #ebe7e5; } }
+    fill: #4b261b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st258 {
-  animation: colorize-258 48s linear 6s infinite alternate; }
+  animation: colorize-258 76s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st258:hover {
     animation: none;
@@ -3277,10 +3277,10 @@ html {
 
 @keyframes colorize-259 {
   50% {
-    fill: #f55e38; } }
+    fill: #f4f1f0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st259 {
-  animation: colorize-259 57s linear 15s infinite alternate; }
+  animation: colorize-259 52s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st259:hover {
     animation: none;
@@ -3288,10 +3288,10 @@ html {
 
 @keyframes colorize-260 {
   50% {
-    fill: #6c4c42; } }
+    fill: #fdfcfb; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st260 {
-  animation: colorize-260 57s linear 11s infinite alternate; }
+  animation: colorize-260 40s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st260:hover {
     animation: none;
@@ -3299,10 +3299,10 @@ html {
 
 @keyframes colorize-261 {
   50% {
-    fill: #511301; } }
+    fill: #fdebe8; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st261 {
-  animation: colorize-261 48s linear 15s infinite alternate; }
+  animation: colorize-261 24s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st261:hover {
     animation: none;
@@ -3310,10 +3310,10 @@ html {
 
 @keyframes colorize-262 {
   50% {
-    fill: #edc6a6; } }
+    fill: #ecb9a7; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st262 {
-  animation: colorize-262 45s linear 10s infinite alternate; }
+  animation: colorize-262 68s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st262:hover {
     animation: none;
@@ -3321,10 +3321,10 @@ html {
 
 @keyframes colorize-263 {
   50% {
-    fill: #e6491e; } }
+    fill: #060504; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st263 {
-  animation: colorize-263 54s linear 9s infinite alternate; }
+  animation: colorize-263 24s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st263:hover {
     animation: none;
@@ -3332,10 +3332,10 @@ html {
 
 @keyframes colorize-264 {
   50% {
-    fill: #979191; } }
+    fill: #3c2620; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st264 {
-  animation: colorize-264 42s linear 5s infinite alternate; }
+  animation: colorize-264 28s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st264:hover {
     animation: none;
@@ -3343,10 +3343,10 @@ html {
 
 @keyframes colorize-265 {
   50% {
-    fill: #762914; } }
+    fill: #2f2a28; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st265 {
-  animation: colorize-265 30s linear 17s infinite alternate; }
+  animation: colorize-265 32s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st265:hover {
     animation: none;
@@ -3354,10 +3354,10 @@ html {
 
 @keyframes colorize-266 {
   50% {
-    fill: #e2d4cb; } }
+    fill: #f28445; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st266 {
-  animation: colorize-266 6s linear 15s infinite alternate; }
+  animation: colorize-266 16s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st266:hover {
     animation: none;
@@ -3365,10 +3365,10 @@ html {
 
 @keyframes colorize-267 {
   50% {
-    fill: #ffe8e1; } }
+    fill: #dc644c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st267 {
-  animation: colorize-267 21s linear 1s infinite alternate; }
+  animation: colorize-267 12s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st267:hover {
     animation: none;
@@ -3376,10 +3376,10 @@ html {
 
 @keyframes colorize-268 {
   50% {
-    fill: #a0796a; } }
+    fill: #6b2c05; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st268 {
-  animation: colorize-268 39s linear 1s infinite alternate; }
+  animation: colorize-268 32s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st268:hover {
     animation: none;
@@ -3387,10 +3387,10 @@ html {
 
 @keyframes colorize-269 {
   50% {
-    fill: #95746a; } }
+    fill: #171312; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st269 {
-  animation: colorize-269 33s linear 6s infinite alternate; }
+  animation: colorize-269 44s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st269:hover {
     animation: none;
@@ -3398,10 +3398,10 @@ html {
 
 @keyframes colorize-270 {
   50% {
-    fill: #c91508; } }
+    fill: #b59e92; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st270 {
-  animation: colorize-270 33s linear 9s infinite alternate; }
+  animation: colorize-270 4s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st270:hover {
     animation: none;
@@ -3409,10 +3409,10 @@ html {
 
 @keyframes colorize-271 {
   50% {
-    fill: #681508; } }
+    fill: #201918; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st271 {
-  animation: colorize-271 36s linear 2s infinite alternate; }
+  animation: colorize-271 76s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st271:hover {
     animation: none;
@@ -3420,10 +3420,10 @@ html {
 
 @keyframes colorize-272 {
   50% {
-    fill: #c98c82; } }
+    fill: #f49643; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st272 {
-  animation: colorize-272 39s linear 4s infinite alternate; }
+  animation: colorize-272 4s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st272:hover {
     animation: none;
@@ -3431,10 +3431,10 @@ html {
 
 @keyframes colorize-273 {
   50% {
-    fill: #f59e6b; } }
+    fill: #b7a495; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st273 {
-  animation: colorize-273 45s linear 11s infinite alternate; }
+  animation: colorize-273 4s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st273:hover {
     animation: none;
@@ -3442,10 +3442,10 @@ html {
 
 @keyframes colorize-274 {
   50% {
-    fill: #ff6857; } }
+    fill: #9a3b2d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st274 {
-  animation: colorize-274 57s linear 1s infinite alternate; }
+  animation: colorize-274 72s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st274:hover {
     animation: none;
@@ -3453,10 +3453,10 @@ html {
 
 @keyframes colorize-275 {
   50% {
-    fill: #a7590c; } }
+    fill: #50392b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st275 {
-  animation: colorize-275 30s linear 9s infinite alternate; }
+  animation: colorize-275 24s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st275:hover {
     animation: none;
@@ -3464,10 +3464,10 @@ html {
 
 @keyframes colorize-276 {
   50% {
-    fill: #f0c8b7; } }
+    fill: #f35b44; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st276 {
-  animation: colorize-276 33s linear 11s infinite alternate; }
+  animation: colorize-276 16s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st276:hover {
     animation: none;
@@ -3475,10 +3475,10 @@ html {
 
 @keyframes colorize-277 {
   50% {
-    fill: #40110c; } }
+    fill: #2a1e1e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st277 {
-  animation: colorize-277 30s linear 13s infinite alternate; }
+  animation: colorize-277 76s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st277:hover {
     animation: none;
@@ -3486,10 +3486,10 @@ html {
 
 @keyframes colorize-278 {
   50% {
-    fill: #d7c1ac; } }
+    fill: #86645b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st278 {
-  animation: colorize-278 3s linear 7s infinite alternate; }
+  animation: colorize-278 40s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st278:hover {
     animation: none;
@@ -3497,10 +3497,10 @@ html {
 
 @keyframes colorize-279 {
   50% {
-    fill: #fef9f5; } }
+    fill: #120b08; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st279 {
-  animation: colorize-279 57s linear 12s infinite alternate; }
+  animation: colorize-279 64s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st279:hover {
     animation: none;
@@ -3508,10 +3508,10 @@ html {
 
 @keyframes colorize-280 {
   50% {
-    fill: #ce1f12; } }
+    fill: #f6f4f4; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st280 {
-  animation: colorize-280 33s linear 17s infinite alternate; }
+  animation: colorize-280 4s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st280:hover {
     animation: none;
@@ -3519,10 +3519,10 @@ html {
 
 @keyframes colorize-281 {
   50% {
-    fill: #eb7d24; } }
+    fill: #fa8c1e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st281 {
-  animation: colorize-281 6s linear 12s infinite alternate; }
+  animation: colorize-281 52s ease 51s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st281:hover {
     animation: none;
@@ -3530,10 +3530,10 @@ html {
 
 @keyframes colorize-282 {
   50% {
-    fill: #bd6261; } }
+    fill: #f5e2e0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st282 {
-  animation: colorize-282 33s linear 13s infinite alternate; }
+  animation: colorize-282 20s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st282:hover {
     animation: none;
@@ -3541,10 +3541,10 @@ html {
 
 @keyframes colorize-283 {
   50% {
-    fill: #a24e15; } }
+    fill: #dad5d3; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st283 {
-  animation: colorize-283 48s linear 8s infinite alternate; }
+  animation: colorize-283 52s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st283:hover {
     animation: none;
@@ -3552,10 +3552,10 @@ html {
 
 @keyframes colorize-284 {
   50% {
-    fill: #928e8b; } }
+    fill: #a5341d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st284 {
-  animation: colorize-284 27s linear 7s infinite alternate; }
+  animation: colorize-284 8s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st284:hover {
     animation: none;
@@ -3563,10 +3563,10 @@ html {
 
 @keyframes colorize-285 {
   50% {
-    fill: #a48c84; } }
+    fill: #45312b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st285 {
-  animation: colorize-285 15s linear 14s infinite alternate; }
+  animation: colorize-285 68s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st285:hover {
     animation: none;
@@ -3574,10 +3574,10 @@ html {
 
 @keyframes colorize-286 {
   50% {
-    fill: #b07163; } }
+    fill: #faa466; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st286 {
-  animation: colorize-286 9s linear 1s infinite alternate; }
+  animation: colorize-286 68s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st286:hover {
     animation: none;
@@ -3585,10 +3585,10 @@ html {
 
 @keyframes colorize-287 {
   50% {
-    fill: #e9816d; } }
+    fill: #e9913a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st287 {
-  animation: colorize-287 36s linear 4s infinite alternate; }
+  animation: colorize-287 60s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st287:hover {
     animation: none;
@@ -3596,10 +3596,10 @@ html {
 
 @keyframes colorize-288 {
   50% {
-    fill: #9f9999; } }
+    fill: #634c4b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st288 {
-  animation: colorize-288 33s linear 13s infinite alternate; }
+  animation: colorize-288 28s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st288:hover {
     animation: none;
@@ -3607,10 +3607,10 @@ html {
 
 @keyframes colorize-289 {
   50% {
-    fill: #2d0c06; } }
+    fill: #894b29; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st289 {
-  animation: colorize-289 12s linear 1s infinite alternate; }
+  animation: colorize-289 64s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st289:hover {
     animation: none;
@@ -3618,10 +3618,10 @@ html {
 
 @keyframes colorize-290 {
   50% {
-    fill: #a58778; } }
+    fill: #a66359; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st290 {
-  animation: colorize-290 9s linear 11s infinite alternate; }
+  animation: colorize-290 48s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st290:hover {
     animation: none;
@@ -3629,10 +3629,10 @@ html {
 
 @keyframes colorize-291 {
   50% {
-    fill: #fdfcfb; } }
+    fill: #54311d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st291 {
-  animation: colorize-291 9s linear 8s infinite alternate; }
+  animation: colorize-291 56s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st291:hover {
     animation: none;
@@ -3640,10 +3640,10 @@ html {
 
 @keyframes colorize-292 {
   50% {
-    fill: #2c0707; } }
+    fill: #dac4b4; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st292 {
-  animation: colorize-292 54s linear 11s infinite alternate; }
+  animation: colorize-292 48s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st292:hover {
     animation: none;
@@ -3651,10 +3651,10 @@ html {
 
 @keyframes colorize-293 {
   50% {
-    fill: #df9877; } }
+    fill: #c75b33; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st293 {
-  animation: colorize-293 33s linear 6s infinite alternate; }
+  animation: colorize-293 24s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st293:hover {
     animation: none;
@@ -3662,10 +3662,10 @@ html {
 
 @keyframes colorize-294 {
   50% {
-    fill: #4b2f26; } }
+    fill: #e48a2f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st294 {
-  animation: colorize-294 18s linear 17s infinite alternate; }
+  animation: colorize-294 20s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st294:hover {
     animation: none;
@@ -3673,10 +3673,10 @@ html {
 
 @keyframes colorize-295 {
   50% {
-    fill: #150d0a; } }
+    fill: #e3996d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st295 {
-  animation: colorize-295 33s linear 1s infinite alternate; }
+  animation: colorize-295 60s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st295:hover {
     animation: none;
@@ -3684,10 +3684,10 @@ html {
 
 @keyframes colorize-296 {
   50% {
-    fill: #412911; } }
+    fill: #f8d7d3; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st296 {
-  animation: colorize-296 6s linear 17s infinite alternate; }
+  animation: colorize-296 60s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st296:hover {
     animation: none;
@@ -3695,10 +3695,10 @@ html {
 
 @keyframes colorize-297 {
   50% {
-    fill: #a29b96; } }
+    fill: #928c8b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st297 {
-  animation: colorize-297 21s linear 14s infinite alternate; }
+  animation: colorize-297 40s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st297:hover {
     animation: none;
@@ -3706,10 +3706,10 @@ html {
 
 @keyframes colorize-298 {
   50% {
-    fill: #e6705b; } }
+    fill: #140d06; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st298 {
-  animation: colorize-298 9s linear 14s infinite alternate; }
+  animation: colorize-298 32s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st298:hover {
     animation: none;
@@ -3717,10 +3717,10 @@ html {
 
 @keyframes colorize-299 {
   50% {
-    fill: #422b1f; } }
+    fill: #642611; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st299 {
-  animation: colorize-299 27s linear 4s infinite alternate; }
+  animation: colorize-299 8s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st299:hover {
     animation: none;
@@ -3728,10 +3728,10 @@ html {
 
 @keyframes colorize-300 {
   50% {
-    fill: #fdf1ed; } }
+    fill: #4f2017; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st300 {
-  animation: colorize-300 45s linear 3s infinite alternate; }
+  animation: colorize-300 52s ease 6s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st300:hover {
     animation: none;
@@ -3739,10 +3739,10 @@ html {
 
 @keyframes colorize-301 {
   50% {
-    fill: #fcded5; } }
+    fill: #812f2c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st301 {
-  animation: colorize-301 27s linear 4s infinite alternate; }
+  animation: colorize-301 44s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st301:hover {
     animation: none;
@@ -3750,10 +3750,10 @@ html {
 
 @keyframes colorize-302 {
   50% {
-    fill: #8a4c33; } }
+    fill: #e6cec6; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st302 {
-  animation: colorize-302 42s linear 13s infinite alternate; }
+  animation: colorize-302 72s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st302:hover {
     animation: none;
@@ -3761,10 +3761,10 @@ html {
 
 @keyframes colorize-303 {
   50% {
-    fill: #f8b5a0; } }
+    fill: #b35c1a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st303 {
-  animation: colorize-303 39s linear 7s infinite alternate; }
+  animation: colorize-303 20s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st303:hover {
     animation: none;
@@ -3772,10 +3772,10 @@ html {
 
 @keyframes colorize-304 {
   50% {
-    fill: #b64a3e; } }
+    fill: #fcd4cf; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st304 {
-  animation: colorize-304 24s linear 14s infinite alternate; }
+  animation: colorize-304 28s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st304:hover {
     animation: none;
@@ -3783,10 +3783,10 @@ html {
 
 @keyframes colorize-305 {
   50% {
-    fill: #f1b6a2; } }
+    fill: #7a4b2e; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st305 {
-  animation: colorize-305 24s linear 6s infinite alternate; }
+  animation: colorize-305 76s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st305:hover {
     animation: none;
@@ -3794,10 +3794,10 @@ html {
 
 @keyframes colorize-306 {
   50% {
-    fill: #4d2323; } }
+    fill: #0d0702; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st306 {
-  animation: colorize-306 9s linear 12s infinite alternate; }
+  animation: colorize-306 8s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st306:hover {
     animation: none;
@@ -3805,10 +3805,10 @@ html {
 
 @keyframes colorize-307 {
   50% {
-    fill: #b1aaa5; } }
+    fill: #2f2e2d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st307 {
-  animation: colorize-307 48s linear 16s infinite alternate; }
+  animation: colorize-307 68s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st307:hover {
     animation: none;
@@ -3816,10 +3816,10 @@ html {
 
 @keyframes colorize-308 {
   50% {
-    fill: #403c3a; } }
+    fill: #582b04; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st308 {
-  animation: colorize-308 51s linear 4s infinite alternate; }
+  animation: colorize-308 68s ease 48s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st308:hover {
     animation: none;
@@ -3827,10 +3827,10 @@ html {
 
 @keyframes colorize-309 {
   50% {
-    fill: #ecb693; } }
+    fill: #925f4f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st309 {
-  animation: colorize-309 24s linear 1s infinite alternate; }
+  animation: colorize-309 72s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st309:hover {
     animation: none;
@@ -3838,10 +3838,10 @@ html {
 
 @keyframes colorize-310 {
   50% {
-    fill: #d16e47; } }
+    fill: #63221c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st310 {
-  animation: colorize-310 51s linear 4s infinite alternate; }
+  animation: colorize-310 72s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st310:hover {
     animation: none;
@@ -3849,10 +3849,10 @@ html {
 
 @keyframes colorize-311 {
   50% {
-    fill: #372b1f; } }
+    fill: #5d2c1d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st311 {
-  animation: colorize-311 42s linear 11s infinite alternate; }
+  animation: colorize-311 4s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st311:hover {
     animation: none;
@@ -3860,10 +3860,10 @@ html {
 
 @keyframes colorize-312 {
   50% {
-    fill: #f5e7e0; } }
+    fill: #b97f64; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st312 {
-  animation: colorize-312 48s linear 7s infinite alternate; }
+  animation: colorize-312 8s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st312:hover {
     animation: none;
@@ -3871,10 +3871,10 @@ html {
 
 @keyframes colorize-313 {
   50% {
-    fill: #3e100a; } }
+    fill: #f7ece9; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st313 {
-  animation: colorize-313 39s linear 16s infinite alternate; }
+  animation: colorize-313 60s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st313:hover {
     animation: none;
@@ -3882,10 +3882,10 @@ html {
 
 @keyframes colorize-314 {
   50% {
-    fill: #28170b; } }
+    fill: #5a0e02; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st314 {
-  animation: colorize-314 42s linear 1s infinite alternate; }
+  animation: colorize-314 60s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st314:hover {
     animation: none;
@@ -3893,10 +3893,10 @@ html {
 
 @keyframes colorize-315 {
   50% {
-    fill: #e14b3d; } }
+    fill: #0c0703; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st315 {
-  animation: colorize-315 33s linear 11s infinite alternate; }
+  animation: colorize-315 8s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st315:hover {
     animation: none;
@@ -3904,10 +3904,10 @@ html {
 
 @keyframes colorize-316 {
   50% {
-    fill: #cb1a10; } }
+    fill: #7b4f42; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st316 {
-  animation: colorize-316 18s linear 10s infinite alternate; }
+  animation: colorize-316 8s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st316:hover {
     animation: none;
@@ -3915,10 +3915,10 @@ html {
 
 @keyframes colorize-317 {
   50% {
-    fill: #140300; } }
+    fill: #887363; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st317 {
-  animation: colorize-317 9s linear 11s infinite alternate; }
+  animation: colorize-317 40s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st317:hover {
     animation: none;
@@ -3926,10 +3926,10 @@ html {
 
 @keyframes colorize-318 {
   50% {
-    fill: #8a6051; } }
+    fill: #aea5a2; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st318 {
-  animation: colorize-318 18s linear 12s infinite alternate; }
+  animation: colorize-318 76s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st318:hover {
     animation: none;
@@ -3937,10 +3937,10 @@ html {
 
 @keyframes colorize-319 {
   50% {
-    fill: #e39b96; } }
+    fill: #df8b53; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st319 {
-  animation: colorize-319 42s linear 1s infinite alternate; }
+  animation: colorize-319 76s ease 45s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st319:hover {
     animation: none;
@@ -3948,10 +3948,10 @@ html {
 
 @keyframes colorize-320 {
   50% {
-    fill: #cbc9c8; } }
+    fill: #ddb6a1; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st320 {
-  animation: colorize-320 45s linear 15s infinite alternate; }
+  animation: colorize-320 72s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st320:hover {
     animation: none;
@@ -3959,10 +3959,10 @@ html {
 
 @keyframes colorize-321 {
   50% {
-    fill: #4d433d; } }
+    fill: #754429; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st321 {
-  animation: colorize-321 24s linear 14s infinite alternate; }
+  animation: colorize-321 64s ease 39s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st321:hover {
     animation: none;
@@ -3970,10 +3970,10 @@ html {
 
 @keyframes colorize-322 {
   50% {
-    fill: #ee844f; } }
+    fill: #5b230b; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st322 {
-  animation: colorize-322 42s linear 17s infinite alternate; }
+  animation: colorize-322 20s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st322:hover {
     animation: none;
@@ -3981,10 +3981,10 @@ html {
 
 @keyframes colorize-323 {
   50% {
-    fill: #f9d0cd; } }
+    fill: #bd9d98; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st323 {
-  animation: colorize-323 3s linear 12s infinite alternate; }
+  animation: colorize-323 48s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st323:hover {
     animation: none;
@@ -3992,10 +3992,10 @@ html {
 
 @keyframes colorize-324 {
   50% {
-    fill: #1e0c01; } }
+    fill: #d76e2d; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st324 {
-  animation: colorize-324 48s linear 1s infinite alternate; }
+  animation: colorize-324 60s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st324:hover {
     animation: none;
@@ -4003,10 +4003,10 @@ html {
 
 @keyframes colorize-325 {
   50% {
-    fill: #080302; } }
+    fill: #fb6f18; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st325 {
-  animation: colorize-325 6s linear 14s infinite alternate; }
+  animation: colorize-325 16s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st325:hover {
     animation: none;
@@ -4014,10 +4014,10 @@ html {
 
 @keyframes colorize-326 {
   50% {
-    fill: #ff870f; } }
+    fill: #64554f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st326 {
-  animation: colorize-326 24s linear 1s infinite alternate; }
+  animation: colorize-326 60s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st326:hover {
     animation: none;
@@ -4025,10 +4025,10 @@ html {
 
 @keyframes colorize-327 {
   50% {
-    fill: #937c7b; } }
+    fill: #dedbd8; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st327 {
-  animation: colorize-327 18s linear 17s infinite alternate; }
+  animation: colorize-327 52s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st327:hover {
     animation: none;
@@ -4036,10 +4036,10 @@ html {
 
 @keyframes colorize-328 {
   50% {
-    fill: #534036; } }
+    fill: #d0bbb4; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st328 {
-  animation: colorize-328 36s linear 4s infinite alternate; }
+  animation: colorize-328 32s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st328:hover {
     animation: none;
@@ -4047,10 +4047,10 @@ html {
 
 @keyframes colorize-329 {
   50% {
-    fill: #e5a371; } }
+    fill: #c17325; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st329 {
-  animation: colorize-329 39s linear 8s infinite alternate; }
+  animation: colorize-329 28s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st329:hover {
     animation: none;
@@ -4058,10 +4058,10 @@ html {
 
 @keyframes colorize-330 {
   50% {
-    fill: #040202; } }
+    fill: #462b16; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st330 {
-  animation: colorize-330 48s linear 16s infinite alternate; }
+  animation: colorize-330 28s ease 15s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st330:hover {
     animation: none;
@@ -4069,10 +4069,10 @@ html {
 
 @keyframes colorize-331 {
   50% {
-    fill: #daccc8; } }
+    fill: #0f0700; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st331 {
-  animation: colorize-331 54s linear 14s infinite alternate; }
+  animation: colorize-331 20s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st331:hover {
     animation: none;
@@ -4080,10 +4080,10 @@ html {
 
 @keyframes colorize-332 {
   50% {
-    fill: #e9dad8; } }
+    fill: #bf765a; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st332 {
-  animation: colorize-332 24s linear 7s infinite alternate; }
+  animation: colorize-332 36s ease 9s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st332:hover {
     animation: none;
@@ -4091,10 +4091,10 @@ html {
 
 @keyframes colorize-333 {
   50% {
-    fill: #f3a086; } }
+    fill: #f03e38; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st333 {
-  animation: colorize-333 48s linear 16s infinite alternate; }
+  animation: colorize-333 52s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st333:hover {
     animation: none;
@@ -4102,10 +4102,10 @@ html {
 
 @keyframes colorize-334 {
   50% {
-    fill: #faf0ef; } }
+    fill: #eeecec; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st334 {
-  animation: colorize-334 57s linear 6s infinite alternate; }
+  animation: colorize-334 32s ease 3s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st334:hover {
     animation: none;
@@ -4113,10 +4113,10 @@ html {
 
 @keyframes colorize-335 {
   50% {
-    fill: #a54409; } }
+    fill: #f3cdba; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st335 {
-  animation: colorize-335 57s linear 7s infinite alternate; }
+  animation: colorize-335 16s ease 24s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st335:hover {
     animation: none;
@@ -4124,10 +4124,10 @@ html {
 
 @keyframes colorize-336 {
   50% {
-    fill: #9d897b; } }
+    fill: #67220f; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st336 {
-  animation: colorize-336 15s linear 1s infinite alternate; }
+  animation: colorize-336 40s ease 33s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st336:hover {
     animation: none;
@@ -4135,10 +4135,10 @@ html {
 
 @keyframes colorize-337 {
   50% {
-    fill: #fef6f1; } }
+    fill: #a9a8a7; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st337 {
-  animation: colorize-337 30s linear 10s infinite alternate; }
+  animation: colorize-337 16s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st337:hover {
     animation: none;
@@ -4146,10 +4146,10 @@ html {
 
 @keyframes colorize-338 {
   50% {
-    fill: #cfb9a5; } }
+    fill: #f0e7e6; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st338 {
-  animation: colorize-338 12s linear 15s infinite alternate; }
+  animation: colorize-338 56s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st338:hover {
     animation: none;
@@ -4157,10 +4157,10 @@ html {
 
 @keyframes colorize-339 {
   50% {
-    fill: #421c00; } }
+    fill: #050505; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st339 {
-  animation: colorize-339 27s linear 17s infinite alternate; }
+  animation: colorize-339 48s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st339:hover {
     animation: none;
@@ -4168,10 +4168,10 @@ html {
 
 @keyframes colorize-340 {
   50% {
-    fill: #fcaa7e; } }
+    fill: #c8c1c0; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st340 {
-  animation: colorize-340 30s linear 1s infinite alternate; }
+  animation: colorize-340 24s ease 12s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st340:hover {
     animation: none;
@@ -4179,10 +4179,10 @@ html {
 
 @keyframes colorize-341 {
   50% {
-    fill: #120807; } }
+    fill: #350e08; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st341 {
-  animation: colorize-341 54s linear 16s infinite alternate; }
+  animation: colorize-341 48s ease 27s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st341:hover {
     animation: none;
@@ -4190,10 +4190,10 @@ html {
 
 @keyframes colorize-342 {
   50% {
-    fill: #fbd1c0; } }
+    fill: #f5a599; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st342 {
-  animation: colorize-342 24s linear 3s infinite alternate; }
+  animation: colorize-342 40s ease 18s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st342:hover {
     animation: none;
@@ -4201,10 +4201,10 @@ html {
 
 @keyframes colorize-343 {
   50% {
-    fill: #f4e0cd; } }
+    fill: #dea47c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st343 {
-  animation: colorize-343 48s linear 16s infinite alternate; }
+  animation: colorize-343 12s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st343:hover {
     animation: none;
@@ -4212,10 +4212,10 @@ html {
 
 @keyframes colorize-344 {
   50% {
-    fill: #f8f2f2; } }
+    fill: #5b3015; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st344 {
-  animation: colorize-344 51s linear 3s infinite alternate; }
+  animation: colorize-344 60s ease 42s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st344:hover {
     animation: none;
@@ -4223,10 +4223,10 @@ html {
 
 @keyframes colorize-345 {
   50% {
-    fill: #463025; } }
+    fill: #f46e15; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st345 {
-  animation: colorize-345 18s linear 17s infinite alternate; }
+  animation: colorize-345 32s ease 30s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st345:hover {
     animation: none;
@@ -4234,10 +4234,10 @@ html {
 
 @keyframes colorize-346 {
   50% {
-    fill: #cd6e4c; } }
+    fill: #894b15; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st346 {
-  animation: colorize-346 30s linear 13s infinite alternate; }
+  animation: colorize-346 24s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st346:hover {
     animation: none;
@@ -4245,10 +4245,10 @@ html {
 
 @keyframes colorize-347 {
   50% {
-    fill: #690f07; } }
+    fill: #cf430c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st347 {
-  animation: colorize-347 33s linear 10s infinite alternate; }
+  animation: colorize-347 48s ease 21s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st347:hover {
     animation: none;
@@ -4256,10 +4256,10 @@ html {
 
 @keyframes colorize-348 {
   50% {
-    fill: #d0403e; } }
+    fill: #a59f9c; } }
 /* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .st348 {
-  animation: colorize-348 57s linear 2s infinite alternate; }
+  animation: colorize-348 64s ease 36s infinite alternate; }
   /* line 24, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .st348:hover {
     animation: none;
@@ -4308,375 +4308,169 @@ circle {
 
 @keyframes shard-0 {
   0% {
-    transform: translateY(-196px) rotate(3deg) scale(0.9); }
+    transform: translateY(-138px) rotate(3deg) scale(0.9); }
   50% {
-    fill: #f6b7b6; }
+    fill: #3c3a39; }
   100% {
     transform: translateY(0) scale(1); } }
 /* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard0 {
-  fill: #AB001F;
+  opacity: .47;
   position: absolute;
-  opacity: 0.67;
-  bottom: 24%;
-  left: 38%;
+  top: 8%;
+  left: 2%;
   z-index: -1;
-  width: 770px;
+  width: 518px;
   animation: shard-0 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  /* line 79, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  .shard0 .🎂 {
+    fill: #AB001F; }
+  /* line 89, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard0:hover {
     animation: none;
     cursor: pointer; }
 
 @keyframes shard-1 {
   0% {
-    transform: translateY(-160px) rotate(3deg) scale(0.9); }
+    transform: translateY(-304px) rotate(3deg) scale(0.9); }
   50% {
-    fill: #806360; }
+    fill: #9a0b09; }
   100% {
     transform: translateY(0) scale(1); } }
 /* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard1 {
-  fill: #AB001F;
+  opacity: .47;
   position: absolute;
-  opacity: 0.67;
-  bottom: 87%;
-  left: 50%;
+  top: 2%;
+  left: 9%;
   z-index: -1;
-  width: 1302px;
+  width: 1610px;
   animation: shard-1 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  /* line 79, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  .shard1 .🎂 {
+    fill: #AB001F; }
+  /* line 89, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard1:hover {
     animation: none;
     cursor: pointer; }
 
 @keyframes shard-2 {
   0% {
-    transform: translateY(-110px) rotate(3deg) scale(0.9); }
+    transform: translateY(-140px) rotate(3deg) scale(0.9); }
   50% {
-    fill: #d37564; }
+    fill: #ddb8b6; }
   100% {
     transform: translateY(0) scale(1); } }
 /* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard2 {
-  fill: #AB001F;
+  opacity: .47;
   position: absolute;
-  opacity: 0.67;
-  bottom: 41%;
-  left: 62%;
+  top: 4%;
+  left: 70%;
   z-index: -1;
-  width: 602px;
+  width: 1582px;
   animation: shard-2 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  /* line 79, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  .shard2 .🎂 {
+    fill: #AB001F; }
+  /* line 89, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard2:hover {
     animation: none;
     cursor: pointer; }
 
 @keyframes shard-3 {
   0% {
-    transform: translateY(-74px) rotate(3deg) scale(0.9); }
+    transform: translateY(-2px) rotate(3deg) scale(0.9); }
   50% {
-    fill: #f29a8c; }
+    fill: #b54745; }
   100% {
     transform: translateY(0) scale(1); } }
 /* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard3 {
-  fill: #AB001F;
+  opacity: .47;
   position: absolute;
-  opacity: 0.67;
-  bottom: 6%;
-  left: 69%;
+  top: 1%;
+  left: 47%;
   z-index: -1;
-  width: 1596px;
+  width: 1554px;
   animation: shard-3 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  /* line 79, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  .shard3 .🎂 {
+    fill: #AB001F; }
+  /* line 89, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard3:hover {
     animation: none;
     cursor: pointer; }
 
 @keyframes shard-4 {
   0% {
-    transform: translateY(-202px) rotate(3deg) scale(0.9); }
+    transform: translateY(-154px) rotate(3deg) scale(0.9); }
   50% {
-    fill: #6a5553; }
+    fill: #4e3937; }
   100% {
     transform: translateY(0) scale(1); } }
 /* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard4 {
-  fill: #AB001F;
+  opacity: .47;
   position: absolute;
-  opacity: 0.67;
-  bottom: 31%;
-  left: 13%;
+  top: 8%;
+  left: 5%;
   z-index: -1;
-  width: 1204px;
+  width: 1064px;
   animation: shard-4 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  /* line 79, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  .shard4 .🎂 {
+    fill: #AB001F; }
+  /* line 89, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard4:hover {
     animation: none;
     cursor: pointer; }
 
 @keyframes shard-5 {
   0% {
-    transform: translateY(-144px) rotate(3deg) scale(0.9); }
+    transform: translateY(-194px) rotate(3deg) scale(0.9); }
   50% {
-    fill: #d8aaa2; }
+    fill: #753229; }
   100% {
     transform: translateY(0) scale(1); } }
 /* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard5 {
-  fill: #AB001F;
+  opacity: .47;
   position: absolute;
-  opacity: 0.67;
-  bottom: 17%;
-  left: 18%;
+  top: 6%;
+  left: 25%;
   z-index: -1;
-  width: 238px;
+  width: 1092px;
   animation: shard-5 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  /* line 79, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  .shard5 .🎂 {
+    fill: #AB001F; }
+  /* line 89, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard5:hover {
     animation: none;
     cursor: pointer; }
 
 @keyframes shard-6 {
   0% {
-    transform: translateY(-122px) rotate(3deg) scale(0.9); }
+    transform: translateY(-208px) rotate(3deg) scale(0.9); }
   50% {
-    fill: #392a28; }
+    fill: #6c6060; }
   100% {
     transform: translateY(0) scale(1); } }
 /* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard6 {
-  fill: #AB001F;
+  opacity: .47;
   position: absolute;
-  opacity: 0.67;
-  bottom: 28%;
-  left: 58%;
+  top: 8%;
+  left: 61%;
   z-index: -1;
-  width: 196px;
+  width: 1246px;
   animation: shard-6 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  /* line 79, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
+  .shard6 .🎂 {
+    fill: #AB001F; }
+  /* line 89, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard6:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-7 {
-  0% {
-    transform: translateY(-146px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #a72216; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard7 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 71%;
-  left: 56%;
-  z-index: -1;
-  width: 224px;
-  animation: shard-7 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard7:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-8 {
-  0% {
-    transform: translateY(-280px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #e3b0a6; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard8 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 87%;
-  left: 27%;
-  z-index: -1;
-  width: 1540px;
-  animation: shard-8 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard8:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-9 {
-  0% {
-    transform: translateY(-314px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #330e0a; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard9 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 19%;
-  left: 43%;
-  z-index: -1;
-  width: 1344px;
-  animation: shard-9 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard9:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-10 {
-  0% {
-    transform: translateY(-98px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #531f18; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard10 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 66%;
-  left: 6%;
-  z-index: -1;
-  width: 1218px;
-  animation: shard-10 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard10:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-11 {
-  0% {
-    transform: translateY(-252px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #e9c1ba; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard11 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 3%;
-  left: 27%;
-  z-index: -1;
-  width: 1400px;
-  animation: shard-11 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard11:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-12 {
-  0% {
-    transform: translateY(-50px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #9e4f4c; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard12 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 11%;
-  left: 6%;
-  z-index: -1;
-  width: 896px;
-  animation: shard-12 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard12:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-13 {
-  0% {
-    transform: translateY(-304px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #d6bdbd; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard13 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 90%;
-  left: 27%;
-  z-index: -1;
-  width: 1428px;
-  animation: shard-13 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard13:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-14 {
-  0% {
-    transform: translateY(-328px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #72281d; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard14 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 54%;
-  left: 35%;
-  z-index: -1;
-  width: 462px;
-  animation: shard-14 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard14:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-15 {
-  0% {
-    transform: translateY(-56px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #f7c2ba; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard15 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 66%;
-  left: 68%;
-  z-index: -1;
-  width: 840px;
-  animation: shard-15 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard15:hover {
-    animation: none;
-    cursor: pointer; }
-
-@keyframes shard-16 {
-  0% {
-    transform: translateY(-176px) rotate(3deg) scale(0.9); }
-  50% {
-    fill: #f68079; }
-  100% {
-    transform: translateY(0) scale(1); } }
-/* line 78, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-.shard16 {
-  fill: #AB001F;
-  position: absolute;
-  opacity: 0.67;
-  bottom: 38%;
-  left: 15%;
-  z-index: -1;
-  width: 1148px;
-  animation: shard-16 21s ease infinite alternate; }
-  /* line 87, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
-  .shard16:hover {
     animation: none;
     cursor: pointer; }
 
@@ -4692,180 +4486,43 @@ main {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
-  /* line 20, /Users/tallys/Projects/artist-developer/vendor/ruby/2.0.0/gems/bourbon-4.2.7/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, /Library/Ruby/Gems/2.0.0/gems/bourbon-4.2.7/app/assets/stylesheets/addons/_clearfix.scss */
   main::after {
     clear: both;
     content: "";
     display: table; }
 
-/* line 21, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
+/* line 22, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
+footer {
+  border-top: 1px solid #1f3438;
+  text-align: center; }
+
+/* line 27, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
 h2 {
   color: #c7dce0; }
 
-/* line 25, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
+/* line 31, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
 .🌺 {
   text-align: left;
   border-bottom: 10px solid #860519; }
 
-/* line 30, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
+/* line 36, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
 .🌷 {
   color: #c7dce0;
   list-style: none; }
-  /* line 33, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
+  /* line 39, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
   .🌷 li {
     margin-bottom: .5em; }
 
-@keyframes gem0 {
-  0% {
-    fill: #5e0c02; }
-  20% {
-    fill: #8a6b5c; }
-  50% {
-    fill: #571305; }
-  80% {
-    fill: #488450; }
-  100% {
-    fill: #bdbdbc; } }
-/* line 48, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-.gem0 {
-  fill: #860519;
-  animation: gem0 2s 2s ease infinite alternate; }
-  /* line 51, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-  .gem0:hover {
-    animation: none; }
-
-@keyframes gem1 {
-  0% {
-    fill: #dcc5c1; }
-  20% {
-    fill: #140500; }
-  50% {
-    fill: #311e1b; }
-  80% {
-    fill: #bfe6b7; }
-  100% {
-    fill: #f5d2cc; } }
-/* line 48, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-.gem1 {
-  fill: #860519;
-  animation: gem1 2s 3s ease infinite alternate; }
-  /* line 51, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-  .gem1:hover {
-    animation: none; }
-
-@keyframes gem2 {
-  0% {
-    fill: #efcdcd; }
-  20% {
-    fill: #f8b8af; }
-  50% {
-    fill: #f5dbd1; }
-  80% {
-    fill: #195809; }
-  100% {
-    fill: #0757ab; } }
-/* line 48, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-.gem2 {
-  fill: #860519;
-  animation: gem2 4s 1s ease infinite alternate; }
-  /* line 51, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-  .gem2:hover {
-    animation: none; }
-
-@keyframes gem3 {
-  0% {
-    fill: #0e0b0b; }
-  20% {
-    fill: #eb0800; }
-  50% {
-    fill: #de9463; }
-  80% {
-    fill: #7e8566; }
-  100% {
-    fill: #60504d; } }
-/* line 48, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-.gem3 {
-  fill: #860519;
-  animation: gem3 4s 2s ease infinite alternate; }
-  /* line 51, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-  .gem3:hover {
-    animation: none; }
-
-@keyframes gem4 {
-  0% {
-    fill: #d52e10; }
-  20% {
-    fill: #f5f1f0; }
-  50% {
-    fill: #f9f7f6; }
-  80% {
-    fill: #faf7f5; }
-  100% {
-    fill: #0d0908; } }
-/* line 48, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-.gem4 {
-  fill: #860519;
-  animation: gem4 4s 2s ease infinite alternate; }
-  /* line 51, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-  .gem4:hover {
-    animation: none; }
-
-@keyframes gem5 {
-  0% {
-    fill: #ea8881; }
-  20% {
-    fill: #bd0d00; }
-  50% {
-    fill: #975653; }
-  80% {
-    fill: #f1f9f0; }
-  100% {
-    fill: #c1c2c2; } }
-/* line 48, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-.gem5 {
-  fill: #860519;
-  animation: gem5 6s 3s ease infinite alternate; }
-  /* line 51, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-  .gem5:hover {
-    animation: none; }
-
-@keyframes gem6 {
-  0% {
-    fill: #c4b6b5; }
-  20% {
-    fill: #391d0f; }
-  50% {
-    fill: #553d30; }
-  80% {
-    fill: #547855; }
-  100% {
-    fill: #ecbc88; } }
-/* line 48, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-.gem6 {
-  fill: #860519;
-  animation: gem6 6s 1s ease infinite alternate; }
-  /* line 51, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-  .gem6:hover {
-    animation: none; }
-
-/* line 57, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
-.💎 {
-  display: block;
-  margin: auto;
-  width: 110px;
-  padding: 0 30px;
-  fill: #c7dce0;
-  stroke: none; }
-
-/* line 66, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
+/* line 44, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
 p {
   color: #c7dce0; }
 
-/* line 70, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
+/* line 48, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
 a {
   text-decoration: none;
   color: #c7dce0; }
-  /* line 73, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
+  /* line 51, /Users/tallys/Projects/artist-developer/source/stylesheets/all.css.scss */
   a:active, a:focus, a:hover {
     color: white;
     text-decoration: underline; }
