@@ -13,7 +13,7 @@ document.addEventListener(`keyup`, e => {
 	}
 }, false)
 
-// CLOCK DEMO (big thanks to wes bos! https://github.com/wesbos/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
+// CLOCK DEMO (big thanks to wes bos and Javascript30 for the inspiration!🎉) https://github.com/wesbos/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
 
 const SECONDS_ON_FACE = 60
 const MINUTES_ON_FACE = 60
@@ -34,7 +34,7 @@ function renderClock(date) {
 	clock.querySelector(`.js--min-hand`).style.transform = `rotate(${minsDegrees}deg)`
 	clock.querySelector(`.js--hour-hand`).style.transform = `rotate(${hourDegrees}deg)`
 
-	clock.style.setProperty(`--second-degrees`, secondsDegrees)
+	clock.style.setProperty(`--second-degrees`, secondsDegrees - 90)
 }
 
 setInterval(() => renderClock(new Date), 1000)
