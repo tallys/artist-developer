@@ -17,6 +17,60 @@ main {
 	margin-right: auto;
 }
 
+.main-grid {
+	margin: auto;
+	padding: 30px;
+	margin-bottom: 30px;
+	display: grid;
+	grid-template-columns: 1.3fr .6fr 1.3fr .8fr 1fr 1.6fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 1vw;
+}
+
+.main-grid-item {
+	// background-color: hsla(5, 60, 60, .2);
+}
+
+.main-grid-color-theory {
+	grid-column: 3 / span 3;
+	grid-row: 13 / 15;
+	align-self: center;
+	z-index: 2;
+}
+
+.main-grid-speaking {
+	grid-column: 1 / span 4;
+	grid-row: 9 / 11;
+}
+
+.main-grid-grid {
+	grid-column: 6 / span 2;
+	grid-row: 10;
+	align-self: center;
+}
+
+.main-grid-writing {
+	grid-column: 6 / -1;
+	grid-row: 2 / 3;
+	align-self: end;
+}
+
+.main-grid-coding {
+	grid-column: span 3;
+	grid-row: 2;
+	min-height: 250px;
+}
+
+.main-grid-teaching {
+	grid-column: 5 / span 2;
+	grid-row: 4 / 5;
+	align-self: end;
+}
+
+.main-grid-illustrating {
+	grid-column: 3 / span 3;
+	grid-row: 3 / 4;
+}
 
 footer {
 	border-top: 1px solid $complementary-neutral-dark;
@@ -28,6 +82,7 @@ h2 {
 }
 
 .🌺 {
+	grid-column: 1 / 6;
 	text-align: left;
 	border-bottom: 10px solid #860519;
 }
