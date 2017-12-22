@@ -20,6 +20,7 @@ main {
 .main-grid {
 	margin: auto;
 	padding: 30px;
+	padding-top: 0;
 	margin-bottom: 30px;
 	display: grid;
 	grid-template-columns: 1.3fr .6fr 1.3fr .8fr 1fr 1.6fr 1fr;
@@ -56,9 +57,16 @@ main {
 }
 
 .main-grid-coding {
-	grid-column: span 3;
+	grid-column: 1 / span 3;
 	grid-row: 2;
 	min-height: 250px;
+}
+
+.main-grid-coding-shard {
+	grid-column: 1 / span 4;
+	grid-row: 2 / 4;
+	min-height: 250px;
+	z-index: -1;
 }
 
 .main-grid-teaching {
@@ -67,9 +75,27 @@ main {
 	align-self: end;
 }
 
+.main-grid-teaching-shard {
+	grid-column: 5 / span 2;
+	grid-row: 4 / 5;
+	align-self: end;
+	z-index: -1;
+}
+
+.main-grid-writing-shard {
+	grid-column: 6 / -1;
+	grid-row: 2 / 3;
+	align-self: end;
+	z-index: -1;
+}
+
 .main-grid-illustrating {
 	grid-column: 3 / span 3;
 	grid-row: 3 / 4;
+}
+
+.background-shard {
+
 }
 
 footer {
@@ -84,7 +110,6 @@ h2 {
 .🌺 {
 	grid-column: 1 / 6;
 	text-align: left;
-	border-bottom: 10px solid #860519;
 }
 
 .🌷 {

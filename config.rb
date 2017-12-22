@@ -15,6 +15,7 @@
 #
 # With no layout
 page "/demos.html", layout: false
+page "/sketchnotes.html", layout: false
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
