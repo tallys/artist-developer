@@ -21,10 +21,14 @@ main {
 	padding: 20px;
 	padding-top: 0;
 	margin-bottom: 30px;
-	display: grid;
-	grid-template-columns: 1.3fr .6fr 1.3fr .8fr 1fr 1.6fr 1fr;
-	grid-column-gap: 10px;
-	grid-row-gap: 1vw;
+	max-width: 400px;
+	@supports(display:grid) {
+		max-width: none;
+		display: grid;
+		grid-template-columns: 1.3fr .6fr 1.3fr .8fr 1fr 1.6fr 1fr;
+		grid-column-gap: 10px;
+		grid-row-gap: 1vw;
+	}
 }
 
 .main-grid-item {
@@ -60,7 +64,9 @@ main {
 .main-grid-coding {
 	grid-column: 3 / span 3;
 	grid-row: 2;
-	min-height: 250px;
+	@supports(display:grid) {
+		min-height: 250px;
+	}
 }
 
 .main-grid-coding-shard {
@@ -116,6 +122,18 @@ main {
 	z-index: -1;
 }
 
+.main-grid-coding-shard, 
+.main-grid-speaking-shard,
+.main-grid-illustrating-shard,
+.main-grid-writing-shard,
+.main-grid-grid-shard,
+.main-grid-teaching-shard {
+	display: none;
+	@supports(display:grid) {
+		display: inline-block;
+	}
+}
+
 footer {
 	border-top: 1px solid $complementary-neutral-dark;
 	text-align: center;
@@ -127,6 +145,10 @@ h2 {
 
 .🌺 {
 	text-align: left;
+	border-bottom: 10px solid #860519;
+	@supports(display:grid) {
+		border-bottom: none;
+	}
 }
 
 .🌷 {
