@@ -7,19 +7,18 @@
 body {
 	background-color: $dark-neutral;
 	position: relative;
-	animation: moving-shadow (random(5) *3s) linear infinite;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 main {
-	max-width: 900px;
+	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .main-grid {
 	margin: auto;
-	padding: 30px;
+	padding: 20px;
 	padding-top: 0;
 	margin-bottom: 30px;
 	display: grid;
@@ -36,11 +35,12 @@ main {
 	grid-column: 3 / span 3;
 	grid-row: 13 / 15;
 	align-self: center;
+	justify-self: center;
 	z-index: 2;
 }
 
 .main-grid-speaking {
-	grid-column: 1 / span 4;
+	grid-column: 2 / span 4;
 	grid-row: 9 / 11;
 }
 
@@ -51,20 +51,21 @@ main {
 }
 
 .main-grid-writing {
-	grid-column: 6 / -1;
+	grid-column: 5;
 	grid-row: 2 / 3;
 	align-self: end;
+	justify-self: right;
 }
 
 .main-grid-coding {
-	grid-column: 1 / span 3;
+	grid-column: 3 / span 3;
 	grid-row: 2;
 	min-height: 250px;
 }
 
 .main-grid-coding-shard {
 	grid-column: 1 / span 4;
-	grid-row: 2 / 4;
+	grid-row: 1 / 4;
 	min-height: 250px;
 	z-index: -1;
 }
@@ -76,26 +77,44 @@ main {
 }
 
 .main-grid-teaching-shard {
+	grid-column: 4;
+	grid-row: 4;
+	align-self: end;
+	z-index: -1;
+}
+
+.main-grid-grid-shard {
 	grid-column: 5 / span 2;
-	grid-row: 4 / 5;
+	grid-row: 10;
 	align-self: end;
 	z-index: -1;
 }
 
 .main-grid-writing-shard {
-	grid-column: 6 / -1;
-	grid-row: 2 / 3;
-	align-self: end;
+	grid-column: 5 / span 2;
+	grid-row: 2;
+	align-self: center;
 	z-index: -1;
 }
 
 .main-grid-illustrating {
-	grid-column: 3 / span 3;
+	grid-column: 4 / span 3;
 	grid-row: 3 / 4;
 }
 
-.background-shard {
+.main-grid-illustrating-shard {
+	grid-column: 3 / 6;
+	grid-row: 3 / 4;
+	align-self: start;
+	z-index: -1;
+	justify-self: center;
+}
 
+.main-grid-speaking-shard {
+	grid-column: 2 / span 4;
+	grid-row: 9 / 11;
+	align-self: center;
+	z-index: -1;
 }
 
 footer {
@@ -108,7 +127,6 @@ h2 {
 }
 
 .🌺 {
-	grid-column: 1 / 6;
 	text-align: left;
 }
 
@@ -125,7 +143,6 @@ p {
 }
 
 a {
-	text-decoration: none;
 	color: $complementary-neutral-light;
 	&:active, &:focus, &:hover {
 		color: white;

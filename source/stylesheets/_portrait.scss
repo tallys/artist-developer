@@ -1,11 +1,5 @@
 $dark-neutral: #222;
 
-@keyframes moving-shadow {
-	0% {}
-	50% { background-color: hsl(random(360), 10, 10);}
-	100% {}
-}
-
 @keyframes dark-glow {
 	$glow-color: $complementary-neutral-dark;
 	0% {fill: adjust-hue($glow-color, 10);}
