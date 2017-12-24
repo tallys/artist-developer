@@ -7,7 +7,7 @@ $dark-neutral: #222;
 	100% {fill: mix($glow-color, #222);}
 }
 
-@for $i from 0 through 348 {
+@for $i from 0 through 199 {
 	@keyframes colorize-#{$i} {
 		0% {}
 		50% {fill: hsl(random(30), random(50 * 2), random(50 * 2));}
@@ -25,6 +25,14 @@ $dark-neutral: #222;
 .st13, .st14, .st309, .st164 {
 	animation: none;
 }
+
+@for $i from 200 through 348 {
+
+	.st#{$i} {
+		animation: none;
+	}
+}
+
 
 section.shards {
 	height: 100%;

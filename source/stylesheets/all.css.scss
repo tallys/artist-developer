@@ -23,11 +23,13 @@ main {
 	margin-bottom: 30px;
 	max-width: 400px;
 	@supports(display:grid) {
+		@media (min-width: 600px) {
 		max-width: none;
 		display: grid;
 		grid-template-columns: 1.3fr .6fr 1.3fr .8fr 1fr 1.6fr 1fr;
 		grid-column-gap: 10px;
 		grid-row-gap: 1vw;
+		}
 	}
 }
 
@@ -65,7 +67,9 @@ main {
 	grid-column: 3 / span 3;
 	grid-row: 2;
 	@supports(display:grid) {
-		min-height: 250px;
+		@media (min-width: 600px) {
+			min-height: 250px;
+		}
 	}
 }
 
@@ -130,7 +134,9 @@ main {
 .main-grid-teaching-shard {
 	display: none;
 	@supports(display:grid) {
-		display: inline-block;
+		@media (min-width: 600px) {
+			display: inline-block;
+		}
 	}
 }
 
@@ -147,7 +153,9 @@ h2 {
 	text-align: left;
 	border-bottom: 10px solid #860519;
 	@supports(display:grid) {
-		border-bottom: none;
+		@media (min-width: 600px) {
+			border-bottom: none;
+		}
 	}
 }
 
