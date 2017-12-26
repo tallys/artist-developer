@@ -1,23 +1,162 @@
 @charset "utf-8";
 
 @import "normalize";
-@import "bourbon";
-@import "neat";
 @import "variables";
-@import "components";
 @import "portrait";
 
 body {
 	background-color: $dark-neutral;
 	position: relative;
-	animation: moving-shadow (random(5) *3s) linear infinite;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 main {
-	@include outer-container;
+	max-width: 970px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+.main-grid {
+	margin: auto;
+	padding: 20px;
+	padding-top: 0;
+	margin-bottom: 30px;
+	max-width: 400px;
+	@supports(display:grid) {
+		@media (min-width: 600px) {
+		max-width: none;
+		display: grid;
+		grid-template-columns: 1.3fr .6fr 1.3fr .8fr 1fr 1.6fr 1fr;
+		grid-column-gap: 10px;
+		grid-row-gap: 1vw;
+		}
+	}
+}
+
+.main-grid-color-theory {
+	grid-column: 1 / span 3;
+	grid-row: 6;
+	align-self: center;
+	justify-self: center;
+	z-index: 2;
+}
+
+.main-grid-speaking {
+	grid-column: 2 / span 4;
+	grid-row: 5;
+	justify-self: center;
+}
+
+.main-grid-grid {
+	grid-column: 5 / span 2;
+	grid-row: 7;
+}
+
+.main-grid-writing {
+	grid-column: 5;
+	grid-row: 2 / 3;
+	align-self: end;
+	justify-self: right;
+}
+
+.main-grid-coding {
+	grid-column: 3 / span 3;
+	grid-row: 2;
+	@supports(display:grid) {
+		@media (min-width: 600px) {
+			min-height: 250px;
+		}
+	}
+}
+
+.main-grid-teaching {
+	grid-column: 5 / span 2;
+	grid-row: 4 / 5;
+	align-self: center;
+}
+
+//useless but pretty shards
+
+.main-grid-coding-shard {
+	grid-column: 1 / span 4;
+	grid-row: 1 / 4;
+	min-height: 250px;
+	z-index: -1;
+}
+
+.main-grid-teaching-shard {
+	grid-column: 4 / span 3;
+	grid-row: 4;
+	align-self: start;
+	z-index: -1;
+}
+
+.main-grid-color-theory-shard {
+	grid-column: 1 / span 3;
+	grid-row: 6;
+	align-self: start;
+	z-index: -1;
+}
+
+.main-grid-writing-shard {
+	grid-column: 5 / span 2;
+	grid-row: 2;
+	align-self: center;
+	z-index: -1;
+}
+
+.main-grid-illustrating {
+	grid-column: 4 / span 3;
+	grid-row: 3 / 4;
+}
+
+.main-grid-illustrating-shard {
+	grid-column: 3 / span 3;
+	grid-row: 3 / 4;
+	align-self: start;
+	z-index: -1;
+	justify-self: center;
+}
+
+.main-grid-speaking-shard {
+	grid-column: 2 / span 5;
+	grid-row: 5;
+	align-self: start;
+	justify-self: center;
+	z-index: -1;
+}
+
+.main-grid-grid-shard {
+	grid-column: 4 / span 4;
+	grid-row: 7;
+	z-index: -1;
+}
+
+@for $i from 0 through 5 {
+	@keyframes backgroundshard-#{$i} {
+		0% {transform: (translateY(0));}
+		50% {transform: translateY(random(10) * 4px * -1);}
+		100% {transform: (translateY(0));}
+	}
+
+	.background-shard#{$i} {
+			animation: backgroundshard-#{$i} (random(3) * 3s) (random(4)* 2s) ease-in-out 4;
+		}
+}
+.main-grid-coding-shard, 
+.main-grid-speaking-shard,
+.main-grid-illustrating-shard,
+.main-grid-writing-shard,
+.main-grid-grid-shard,
+.main-grid-teaching-shard,
+.main-grid-grid-shard {
+	display: none;
+	@supports(display:grid) {
+		@media (min-width: 600px) {
+			display: inline-block;
+		}
+	}
+}
 
 footer {
 	border-top: 1px solid $complementary-neutral-dark;
@@ -30,12 +169,19 @@ h2 {
 
 .🌺 {
 	text-align: left;
+	font-size: 28px;
 	border-bottom: 10px solid #860519;
+	@supports(display:grid) {
+		@media (min-width: 600px) {
+			border-bottom: none;
+		}
+	}
 }
 
 .🌷 {
 	color: $complementary-neutral-light;
 	list-style: none;
+	font-size: 18px;
 	li {
 		margin-bottom: .5em;
 	}
@@ -46,7 +192,6 @@ p {
 }
 
 a {
-	text-decoration: none;
 	color: $complementary-neutral-light;
 	&:active, &:focus, &:hover {
 		color: white;
