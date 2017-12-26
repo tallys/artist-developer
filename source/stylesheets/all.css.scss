@@ -195,4 +195,7 @@ a {
 		color: white;
 		text-decoration: underline;
 	}
+	&:focus {
+		outline: thin dotted;
+	}
 }
