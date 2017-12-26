@@ -5,7 +5,7 @@
  		100% {}
 	}
 	.st#{$i} {
-		animation: colorize-#{$i} (random(19) * 4s) ease-in-out (random(17) * 3s) alternate 10;
+		animation: colorize-#{$i} (random(19) * 3s) ease-in-out (random(17) * 3s) alternate 10;
 		&:hover {
 			animation: none;
 			cursor: pointer;
@@ -23,7 +23,6 @@
 		animation: none;
 	}
 }
-
 
 section.shards {
 	height: 100%;
@@ -49,26 +48,72 @@ section.shards {
 	margin-top: 15px;
 }
 
-@for $i from 0 through 4 {
-	@keyframes shard-#{$i} {
-		0% {transform: translateY(random(175) * 2px * -1) rotate(3deg) (scale(random(1) * .9));}
-		50% {fill: hsl(random(30), random(60 * 2), random(60 * 2));}
- 		100% {transform: (translateY(0)) scale(1);}
+
+.shard1 {
+	.🎂 {
+		fill: darken(#AB001F, 10%);
+		opacity: random(2) * .11;
 	}
-	.shard#{$i} {
-		.🎂 {
-			fill: darken(#AB001F, 10%);
-			opacity: random(2) * .13;
-		}
-		position: absolute;
-		top: (random(20) * 1%);
-		left: (random(40) * 1%);
-		z-index: -1;
+	position: absolute;
+	top: (random(5) * 1%);
+	left: (random(40) * 1%);
+	z-index: -1;
+	width: (random(520) * 4px);
+	// animation: shard-#{$i} 10s ease-in-out alternate;
+	&:hover {
+		animation: none;
+		cursor: pointer;
+	}
+}
+
+.shard2 {
+	.🎂 {
+		fill: darken(#AB001F, 17%);
+		opacity: random(2) * .11;
+	}
+	position: absolute;
+	top: (random(5) * 1%);
+	left: (random(40) * 1%);
+	z-index: -1;
+	width: (random(120) * 12px);
+	// animation: shard-#{$i} 10s ease-in-out alternate;
+	&:hover {
+		animation: none;
+		cursor: pointer;
+	}
+}
+
+.shard3 {
+	.🎂 {
+		fill: darken(#AB001F, 10%);
+		opacity: random(2) * .11;
 		width: (random(120) * 12px);
-		animation: shard-#{$i} 10s ease-in-out alternate;
-		&:hover {
-			animation: none;
-			cursor: pointer;
-		}
+	}
+	position: absolute;
+	top: 0;
+	left: (random(40) * 1%);
+	z-index: -1;
+	width: (random(120) * 12px);
+	// animation: shard-#{$i} 10s ease-in-out alternate;
+	&:hover {
+		animation: none;
+		cursor: pointer;
+	}
+}
+
+.shard4 {
+	.🎂 {
+		fill: darken(#AB001F, 10%);
+		opacity: random(2) * .11;
+	}
+	position: absolute;
+	top: (random(10) * 1%);
+	left: (random(40) * 1%);
+	z-index: -1;
+	width: (random(120) * 12px);
+	// animation: shard-#{$i} 10s ease-in-out alternate;
+	&:hover {
+		animation: none;
+		cursor: pointer;
 	}
 }
