@@ -69,17 +69,19 @@ main {
 	}
 }
 
+.main-grid-teaching {
+	grid-column: 5 / span 2;
+	grid-row: 4 / 5;
+	align-self: center;
+}
+
+//useless but pretty shards
+
 .main-grid-coding-shard {
 	grid-column: 1 / span 4;
 	grid-row: 1 / 4;
 	min-height: 250px;
 	z-index: -1;
-}
-
-.main-grid-teaching {
-	grid-column: 5 / span 2;
-	grid-row: 4 / 5;
-	align-self: center;
 }
 
 .main-grid-teaching-shard {
@@ -146,7 +148,8 @@ main {
 .main-grid-illustrating-shard,
 .main-grid-writing-shard,
 .main-grid-grid-shard,
-.main-grid-teaching-shard {
+.main-grid-teaching-shard,
+.main-grid-grid-shard {
 	display: none;
 	@supports(display:grid) {
 		@media (min-width: 600px) {

@@ -1,12 +1,3 @@
-$dark-neutral: #222;
-
-@keyframes dark-glow {
-	$glow-color: $complementary-neutral-dark;
-	0% {fill: adjust-hue($glow-color, 10);}
-	50% {fill: lighten($glow-color, 3);}
-	100% {fill: mix($glow-color, #222);}
-}
-
 @for $i from 0 through 199 {
 	@keyframes colorize-#{$i} {
 		0% {}
@@ -56,14 +47,6 @@ section.shards {
 	margin: auto;
 	max-width: 400px;
 	margin-top: 15px;
-}
-
-circle {
-		opacity: .85;
-		animation: dark-glow 5s linear alternate 4;
-	&:hover {
-		animation: none;
-	}
 }
 
 @for $i from 0 through 4 {
