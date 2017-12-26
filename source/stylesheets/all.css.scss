@@ -130,7 +130,17 @@ main {
 	z-index: -1;
 }
 
+@for $i from 0 through 5 {
+	@keyframes backgroundshard-#{$i} {
+		0% {transform: (translateY(0));}
+		50% {transform: translateY(random(10) * 4px * -1);}
+		100% {transform: (translateY(0));}
+	}
 
+	.background-shard#{$i} {
+			animation: backgroundshard-#{$i} (random(3) * 3s) (random(4)* 2s) ease-in-out 4;
+		}
+}
 .main-grid-coding-shard, 
 .main-grid-speaking-shard,
 .main-grid-illustrating-shard,

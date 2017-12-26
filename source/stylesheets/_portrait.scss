@@ -10,11 +10,11 @@ $dark-neutral: #222;
 @for $i from 0 through 199 {
 	@keyframes colorize-#{$i} {
 		0% {}
-		50% {fill: hsl(random(30), random(50 * 2), random(50 * 2));}
+		50% {fill: hsl(random(20), random(50 * 2), 60);}
  		100% {}
 	}
 	.st#{$i} {
-		animation: colorize-#{$i} (random(19) * 4s) ease (random(17) * 3s) infinite alternate;
+		animation: colorize-#{$i} (random(19) * 4s) ease-in-out (random(17) * 3s) alternate 10;
 		&:hover {
 			animation: none;
 			cursor: pointer;
@@ -22,7 +22,7 @@ $dark-neutral: #222;
 	}
 }
 
-.st13, .st14, .st309, .st164 {
+.st13, .st14, .st309, .st164, .st144, .st295, .st164, .st52, .st11, .st299 {
 	animation: none;
 }
 
@@ -42,6 +42,7 @@ section.shards {
 	overflow: hidden;
 	top:0;
 	z-index: -1;
+	margin-top: -30px;
 }
 
 .svg-title {
@@ -59,29 +60,29 @@ section.shards {
 
 circle {
 		opacity: .85;
-		animation: dark-glow 5s linear infinite alternate;
+		animation: dark-glow 5s linear alternate 4;
 	&:hover {
 		animation: none;
 	}
 }
 
-@for $i from 0 through 6 {
+@for $i from 0 through 4 {
 	@keyframes shard-#{$i} {
 		0% {transform: translateY(random(175) * 2px * -1) rotate(3deg) (scale(random(1) * .9));}
-		50% {fill: hsl(random(10), random(50 * 2), random(50 * 2));}
+		50% {fill: hsl(random(30), random(60 * 2), random(60 * 2));}
  		100% {transform: (translateY(0)) scale(1);}
 	}
 	.shard#{$i} {
 		.🎂 {
-			fill: #AB001F;
+			fill: darken(#AB001F, 10%);
+			opacity: random(2) * .13;
 		}
-		opacity: .47;
 		position: absolute;
-		top: (random(10) * 1%);
-		left: (random(70) * 1%);
+		top: (random(20) * 1%);
+		left: (random(40) * 1%);
 		z-index: -1;
-		width: (random(120) * 14px);
-		animation: shard-#{$i} 21s ease infinite alternate;
+		width: (random(120) * 12px);
+		animation: shard-#{$i} 10s ease-in-out alternate;
 		&:hover {
 			animation: none;
 			cursor: pointer;
