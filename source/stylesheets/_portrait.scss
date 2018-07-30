@@ -1,11 +1,5 @@
 @for $i from 0 through 348 {
-	@keyframes colorize-#{$i} {
-		0% {}
-		50% {fill: hsl(random(20), random(50 * 2), 60);}
- 		100% {stroke-dashoffset: 0;}
-	}
 	.st#{$i} {
-		animation: colorize-#{$i} (random(19) * 3s) ease-in-out (random(17) * 3s) alternate 10;
 		&:hover {
 			animation: none;
 			cursor: pointer;
@@ -24,7 +18,7 @@ section.shards {
 	position: absolute;
 	overflow: hidden;
 	top:0;
-	z-index: -1;
+	z-index: -2;
 	margin-top: -30px;
 }
 
@@ -45,14 +39,12 @@ section.shards {
 .shard1 {
 	.🎂 {
 		fill: darken(#AB001F, 10%);
-		opacity: random(2) * .11;
 	}
 	position: absolute;
 	top: (random(5) * 1%);
 	left: (random(40) * 1%);
-	z-index: -1;
+	z-index: -2;
 	width: (random(520) * 4px);
-	// animation: shard-#{$i} 10s ease-in-out alternate;
 	&:hover {
 		animation: none;
 		cursor: pointer;
@@ -61,15 +53,13 @@ section.shards {
 
 .shard2 {
 	.🎂 {
-		fill: darken(#AB001F, 17%);
-		opacity: random(2) * .11;
+		fill: darken(#AB001F, 27%);
 	}
 	position: absolute;
 	top: (random(5) * 1%);
 	left: (random(40) * 1%);
-	z-index: -1;
+	z-index: -2;
 	width: (random(120) * 12px);
-	// animation: shard-#{$i} 10s ease-in-out alternate;
 	&:hover {
 		animation: none;
 		cursor: pointer;
@@ -78,16 +68,14 @@ section.shards {
 
 .shard3 {
 	.🎂 {
-		fill: darken(#AB001F, 10%);
-		opacity: random(2) * .11;
+		fill: darken(#AB001F, 20%);
 		width: (random(120) * 12px);
 	}
 	position: absolute;
 	top: 0;
 	left: (random(40) * 1%);
-	z-index: -1;
+	z-index: -2;
 	width: (random(120) * 12px);
-	// animation: shard-#{$i} 10s ease-in-out alternate;
 	&:hover {
 		animation: none;
 		cursor: pointer;
@@ -96,15 +84,13 @@ section.shards {
 
 .shard4 {
 	.🎂 {
-		fill: darken(#AB001F, 10%);
-		opacity: random(2) * .11;
+		fill: darken(#AB001F, 30%);
 	}
 	position: absolute;
 	top: (random(10) * 1%);
 	left: (random(40) * 1%);
-	z-index: -1;
+	z-index: -2;
 	width: (random(120) * 12px);
-	// animation: shard-#{$i} 10s ease-in-out alternate;
 	&:hover {
 		animation: none;
 		cursor: pointer;
@@ -141,8 +127,3 @@ section.shards {
 		stroke-dashoffset: 0;
 	}
 }
-
-
-
-
-
