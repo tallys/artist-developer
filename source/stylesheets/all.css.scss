@@ -33,6 +33,10 @@ main {
 	}
 }
 
+.main-grid-content {
+	z-index: 3;
+}
+
 .main-grid-color-theory {
 	grid-column: 1 / span 3;
 	grid-row: 6;
@@ -77,32 +81,68 @@ main {
 
 //useless but pretty shards
 
+@keyframes draw {
+
+	0% {
+		fill-opacity: 0;
+	}
+	60% {
+		fill-opacity: 1;
+	}
+	80% {
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+	}
+	100% {
+		fill-opacity: 1;
+		stroke-width: 0;
+		stroke-dashoffset: 0;
+	}
+}
+
+.background-shard {
+	fill:#9D0021;
+	stroke:#9D0021;
+	&:hover {
+		animation: none;
+		cursor: crosshair;
+	}
+}
+
 .main-grid-coding-shard {
 	grid-column: 1 / span 4;
 	grid-row: 1 / 4;
 	min-height: 250px;
-	z-index: -1;
+	&:hover {
+		animation: none;
+	}
 }
 
 .main-grid-teaching-shard {
 	grid-column: 4 / span 3;
 	grid-row: 4;
 	align-self: start;
-	z-index: -1;
+	&:hover {
+		animation: none;
+	}
 }
 
 .main-grid-color-theory-shard {
 	grid-column: 1 / span 3;
 	grid-row: 6;
 	align-self: start;
-	z-index: -1;
+	&:hover {
+		animation: none;
+	}
 }
 
 .main-grid-writing-shard {
 	grid-column: 5 / span 2;
 	grid-row: 2;
 	align-self: center;
-	z-index: -1;
+	&:hover {
+		animation: none;
+	}
 }
 
 .main-grid-illustrating {
@@ -114,33 +154,38 @@ main {
 	grid-column: 3 / span 3;
 	grid-row: 3 / 4;
 	align-self: start;
-	z-index: -1;
+	&:hover {
+		animation: none;
+	}
 }
 
 .main-grid-speaking-shard {
 	grid-column: 2 / span 5;
 	grid-row: 5;
 	align-self: start;
-	z-index: -1;
+	&:hover {
+	animation: none;
+	}
 }
 
 .main-grid-grid-shard {
 	grid-column: 4 / span 4;
 	grid-row: 7;
-	z-index: -1;
-}
-
-@for $i from 0 through 5 {
-	@keyframes backgroundshard-#{$i} {
-		0% {transform: (translateY(0));}
-		50% {transform: translateY(random(10) * 4px * -1);}
-		100% {transform: (translateY(0));}
+	&:hover {
+	animation: none;
 	}
-
-	.background-shard#{$i} {
-			animation: backgroundshard-#{$i} (random(3) * 3s) (random(4)* 2s) ease-in-out 4;
-		}
 }
+
+.grid-shard polygon {
+    stroke-width: 3;
+    fill-opacity: 0;
+    stroke: papayawhip;
+    stroke-dasharray: 2052;
+    stroke-dashoffset: 2052;
+    animation: draw 5s 2s linear forwards;
+}
+
+
 .main-grid-coding-shard, 
 .main-grid-speaking-shard,
 .main-grid-illustrating-shard,
@@ -149,6 +194,9 @@ main {
 .main-grid-teaching-shard,
 .main-grid-grid-shard {
 	display: none;
+	&:hover {
+		animation: none !important;
+	}
 	@supports(display:grid) {
 		@media (min-width: 600px) {
 			display: inline-block;
