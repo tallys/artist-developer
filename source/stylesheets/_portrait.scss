@@ -2,7 +2,7 @@
 	.st#{$i} {
 		&:hover {
 			animation: none;
-			cursor: pointer;
+			cursor: crosshair;
 		}
 	}
 }
@@ -47,7 +47,7 @@ section.shards {
 	width: (random(520) * 4px);
 	&:hover {
 		animation: none;
-		cursor: pointer;
+		cursor: crosshair;
 	}
 }
 
@@ -62,7 +62,7 @@ section.shards {
 	width: (random(120) * 12px);
 	&:hover {
 		animation: none;
-		cursor: pointer;
+		cursor: crosshair;
 	}
 }
 
@@ -93,7 +93,7 @@ section.shards {
 	width: (random(120) * 12px);
 	&:hover {
 		animation: none;
-		cursor: pointer;
+		cursor: crosshair;
 	}
 }
 
