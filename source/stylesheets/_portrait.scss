@@ -78,7 +78,7 @@ section.shards {
 	width: (random(120) * 12px);
 	&:hover {
 		animation: none;
-		cursor: pointer;
+		cursor: crosshair;
 	}
 }
 
