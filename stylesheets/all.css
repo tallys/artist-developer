@@ -2123,10 +2123,10 @@ section.shards {
 /* line 39, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard1 {
   position: absolute;
-  top: 2%;
-  left: 5%;
+  top: 5%;
+  left: 34%;
   z-index: -2;
-  width: 1964px; }
+  width: 920px; }
   /* line 40, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard1 .🎂 {
     fill: #780016; }
@@ -2139,9 +2139,9 @@ section.shards {
 .shard2 {
   position: absolute;
   top: 5%;
-  left: 19%;
+  left: 1%;
   z-index: -2;
-  width: 300px; }
+  width: 480px; }
   /* line 55, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard2 .🎂 {
     fill: #210006; }
@@ -2154,13 +2154,13 @@ section.shards {
 .shard3 {
   position: absolute;
   top: 0;
-  left: 38%;
+  left: 9%;
   z-index: -2;
-  width: 1080px; }
+  width: 1092px; }
   /* line 70, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard3 .🎂 {
     fill: #45000d;
-    width: 564px; }
+    width: 1104px; }
   /* line 79, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard3:hover {
     animation: none;
@@ -2169,10 +2169,10 @@ section.shards {
 /* line 85, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
 .shard4 {
   position: absolute;
-  top: 8%;
-  left: 36%;
+  top: 3%;
+  left: 23%;
   z-index: -2;
-  width: 1020px; }
+  width: 576px; }
   /* line 86, /Users/tallys/Projects/artist-developer/source/stylesheets/_portrait.scss */
   .shard4 .🎂 {
     fill: #120003; }
