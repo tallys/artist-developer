@@ -13,20 +13,57 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
+			<h1 class="👋"> Hi, I'm Natalya </h1>
 			<div class="🐱">
 				<?xml version="1.0" encoding="utf-8"?>
 				<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 				<svg class="self-portrait" version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				viewBox="0 0 375.9 479.5" style="enable-background:new 0 0 375.9 479.5;" xml:space="preserve">
 				<style type="text/css">
-					.svg-title{font-family: 'Pacifico', serif;}
-					.svg-title{font-size:22px; fill:white; }
-					.svg-twitter {font-size: 12px; fill: #222;}
+					.👋 {
+						text-align: center;
+						margin-bottom: 5vh;
+					}
+					.🐱 {
+						max-width: 600px;
+						max-width: 30vw;
+						margin: auto;
+					}
+					.self-portrait polygon:hover {
+						animation: none;
+						cursor: crosshair;
+					}
+					.self-portrait polygon {
+						fill-opacity: 0;
+						stroke: papayawhip;
+						stroke-width: 1;
+						stroke-dasharray: 252;
+						stroke-dashoffset: 252;
+						animation: draw 3s linear forwards;
+					}
+					@keyframes draw {
+
+							0% {
+								fill-opacity: 0;
+							}
+							60% {
+								fill-opacity: 1;
+							}
+							80% {
+								stroke-dashoffset: 0;
+								stroke-width: 0;
+							}
+							100% {
+								fill-opacity: 1;
+								stroke-width: 0;
+								stroke-dashoffset: 0;
+							}
+					}
 				</style>
-				<circle cx="170" cy="200" r="170" fill="#383C3D" >
+				<circle cx="170" cy="200" r="170" fill="transparent" >
 				</circle>
 				<title>Natalya</title>
-				<desc>vector self portrait that alternates colors randomly at every compile</desc>
+				<desc>vector self portrait from a long time ago</desc>
 				<style type="text/css">
 					.st0{fill:#7C5335;}
 					.st1{fill:#342811;}
@@ -842,9 +879,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				<polygon class="st347" points="72.6,159 76.6,148.3 76.6,157.2 "/>
 				<polygon class="st348" points="68.5,146.5 72.6,159 77.6,145.9 "/>
 				<polygon class="st30" points="84.5,145.7 82.1,150.9 83.5,156.4 "/>
-				<text class="svg-title"  transform="matrix(1 0 0 1 180.1353 435.1211)">
-				Hi, I'm Natalya</text>
-				<text class="svg-twitter" transform="matrix(1 0 0 1 210.1353 465.1211)">@natalyathree</text>
 			</svg>
 			</a>
 			</div>
